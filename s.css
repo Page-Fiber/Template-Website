@@ -1,0 +1,3742 @@
+# cc-notify.cc-bottom,
+# cc-tag {
+    bottom: 0 ! important
+}
+
+# cc-modal,
+# cc-modal-overlay,
+# cc-settingsmodal {
+    display: none;
+    width: 100% ! important;
+    height: 1000% ! Importante;
+    arriba: 0 ! Importante
+}
+
+# notificación-cc {
+    posición: fijo ! Importante;
+    índice z: 99999998 ! Importante;
+    izquierda: 0 ! Importante;
+    ancho: 100% ! Importante;
+    color de fondo: #fff ! importante
+}
+
+# cc-notify.cc-mobile {
+    posición: relativo ! importante;
+    borde inferior: 0 ! importante
+}
+
+# cc-modal # cc-modal-closebutton a span,
+# cc-settingsmodal # cc-settingsmodal-closebutton a span {
+    display: none
+}
+
+# cc-notify.cc-push {
+    top: 0 ! important
+}
+
+# cc-notify # cc-notify-permissions {
+    display: none
+}
+
+# cc-tag {
+    display: none ! important;
+    position: fixed ! importante;
+    índice z: 999999999 ! importante;
+    derecha: 10% ! importante
+}
+
+# cc-tag.cc-tag-bottom-left {
+    derecha: auto ! importante;
+    izquierda: 10% ! importante
+}
+
+# cc-tag.cc- tag-horizontal-right {
+    right: 0 ! important;
+    bottom: 20% ! important
+}
+
+# cc-tag.cc-tag-horizontal-left {
+    left: 0 ! important;
+    right: auto ! important;
+    bottom: 20% ! important
+}
+
+# cc-tag.cc-tag-vertical-right {
+    right: 0 ! important;
+    bottom: 20% ! important
+}
+
+# cc-tag.cc-tag-vertical-left {
+    left: 0 ! important;
+    right: auto ! important;
+    bottom: 20% ! important
+}
+
+# cc-modal-overlay {
+    background: #fff ! important;
+    background -color: rgba (255, 255, 255, .8) ! importante;
+    posición: fijo ! importante;
+    izquierda: 0 ! importante;
+    índice z: 999999 ! importante
+}
+
+# cc-modal,
+# cc-settingsmodal {
+    posición: fijo ! importante;
+    izquierda: 0 ! Importante;
+    índice z: 99999999 ! Importante
+}
+
+# cc-settingsmodal {
+    índice z: 9999999999 ! Important
+}
+
+# cc-modal,
+# notificación-cc,
+# cc-settingsmodal,
+# cc-tag {
+    line-height: 1 ! Important
+}
+
+.cc-clear {
+    clear: both ! Important
+}
+
+# cc-modal,
+# cc-modal a,
+# cc-modal b,
+# cc-modal code,
+# cc-modal dd,
+# cc-modal div,
+# cc-modal dl,
+# cc-modal dt,
+# cc-modal em,
+# cc-modal form,
+# cc-modal h1,
+# cc-modal h2,
+# cc-modal h3,
+# cc-modal h4,
+# cc -modal h5,
+# cc-modal h6,
+# cc-modal i,
+# cc-modal iframe,
+# cc-modal img,
+# cc-modal label,
+# cc-modal li,
+# cc-modal ol,
+# cc-modal p,
+# cc-modal pre,
+# cc -modal s,
+# cc-modal pequeño,
+# cc-modal span,
+# cc-modal fuerte,
+# cc-modal u,
+# cc-modal ul,
+# cc-notificación,
+# cc-notificación a,
+# cc-notificación b,
+# código de notificación de cc,
+# dd de notificación de cc,
+# div. de notificación de cc,
+# dl de notificación de cc,
+# dt de notificación de cc,
+# notificación de cc em,
+# formulario de notificación de cc,
+# notificación de cc h1,
+# notificación cc h2,
+# notificación cc h3,
+# notificación cc h4,
+# notificación cc h5,
+# notificación cc h6,
+# notificación cc i,
+# iframe de notificación cc,
+# img notificación cc,
+# cc- etiqueta de notificación,
+# notificación de cc li,
+# notificación de cc ol,
+# notificación de cc p,
+# notificación de cc previa,
+# notificación de cc s,
+# notificación de cc pequeña,
+# período de notificación de cc,
+# notificación de cc fuerte,
+# cc-notificación u,
+# cc-notificación ul,
+# cc-settingsmodal,
+# cc-settingsmodal a,
+# cc-settingsmodal b,
+# cc-settingsmodal code,
+# cc-settingsmodal dd,
+# cc-settingsmodal div,
+# cc-settingsmodal dl,
+# cc-settingsmodal dt,
+# cc-settingsmodal em,
+# cc-settingsmodal form,
+# cc -settingsmodal h1,
+# cc-settingsmodal h2,
+# cc-settingsmodal h3,
+# cc-settingsmodal h4,
+# cc-settingsmodal h5,
+# cc-settingsmodal h6,
+# cc-settingsmodal i,
+# cc-settingsmodal iframe,
+# cc-settingsmodal img,
+# cc-settingsmodal label,
+# cc-settingsmodal li,
+# cc-settingsmodal ol,
+# cc-settingsmodal p,
+# cc-settingsmodal pre,
+# cc-settingsmodal s,
+# cc-settingsmodal small,
+# cc-settingsmodal span,
+# cc-settingsmodal strong,
+# cc-settingsmodal u,
+# cc-settingsmodal ul,
+# cc-tag,
+# cc-tag a,
+# cc-tag b,
+# cc-tag code,
+# cc-tag dd,
+# cc- tag div,
+# cc-tag dl,
+# cc-tag dt,
+# cc-tag em,
+# cc-tag form,
+# cc-tag h1,
+# cc-tag h2,
+# cc-tag h3,
+# cc-tag h4,
+# cc-tag h5,
+# cc-tag h6,
+# cc-tag i,
+# cc-tag iframe,
+# cc-tag img,
+# cc-tag label,
+# cc-tag li,
+# cc-tag ol,
+# cc-tag p,
+# cc-tag pre,
+# cc-tag s,
+# cc-tag small,
+# cc-tag span,
+# cc-tag strong,
+# cc-tag u,
+# cc-tag ul {
+    margin: 0;
+    relleno: 0;
+    borde: 0;
+    tamaño de fuente: 10pt;
+    familia de fuente: 'Open Sans', Arial, Helvetica, sans-serif;
+    peso de fuente: 400;
+    altura de línea: 1em;
+    alineación de texto: izquierda;
+    alineación vertical: línea de base;
+    sombra de texto: ninguna;
+    fondo: 0
+}
+
+# notificación-cc i.fa {
+    familia-fuente: FontAwesome
+}
+
+# cc-modal,
+# notificación-cc,
+# configuración-cc modal,
+# etiqueta-cc a,
+# cc-tag a: visitó {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif ! important
+}
+
+# cc-modal a,
+# cc-modal a: hover,
+# cc-notificación a,
+# notificación cc a: hover,
+# cc-settingsmodal a,
+# cc-settingsmodal a: hover,
+# cc-tag a,
+# cc-tag a: hover {
+    background-color: transparent
+}
+
+# cc-modal a # footerlogo span {
+    fondo: url (https: //s3-eu-west-1.amazonaws.com/assets.cookieconsent.silktide.com/silktide-logo.png) no-repeat! important; display: block; height: 31px! important; margen superior:4px! Important; text-indent: -5000px! Important; ancho: 126px! Important} # cc-modal # cc-modal-wrapper a # footerlogo, footer # mainfooter a # footerlogo, footer # mainfooter a # footerlogo: active, footer #mainfooter a # footerlogo: visitó {display: block; margin-top: 20px! important; color: # 868686! important; text-decoration: none! important} # cc-modal # cc-modal-wrapper .cc-getforsite { position: absolute; right: 16px; bottom: 16px} # cc-modal.cc-mobile # cc-modal-wrapper .cc-getforsite {position: relative! important; margin-top: 30px! important; margin-left: 16px } # cc-modal.cc-mobile, # cc-settingsmodal.cc-mobile {ancho: 100%! importante; posición: relativa! importante; arriba: 0! importante; izquierda: 0! importante; altura: auto! importante; z-index: 999999999999! important} # cc-modal.cc-mobile a.cc-logo, # cc-notify.cc-mobile a.cc-logo, # cc-settingsmodal.cc-mobile a.cc-logo { display: none! important} # cc-modal .cc-logo,# cc-notificación .cc-logo, # cc-settingsmodal .cc-logo, # cc-tag .cc-logo {background-image: url (https://s3-eu-west-1.amazonaws.com/assets .cookieconsent.silktide.com / cookie-consent-logo.png); ancho: 142px; altura: 32px; posición: absoluta; derecha: 32px; abajo: 20px} .cc-logo span {display: none} # cc-notificación .cc-light {background: # e2e2e2! important; background-color: rgba (226,226,226, .95)! important; color: # 1d1d1d! important} # cc-notify.cc-light # cc-notification-permissions li {color : # 1d1d1d! Important} # cc-notify.cc-light # cc-notify-permissions li strong {color: # 31a8f0! Important} # cc-notify.cc-light # cc-notify-permissions li.cc-notify- permisos-inactivos, # cc-notificación.cc-luz # cc-notificación-permisos li.cc-notificación-permisos-etiqueta inactiva {color: #AAA! important} # cc-notificación.cc-luz # cc-notificación-permisos li.cc-notify-permissions-inactive strong {color: # 88bfef! important} # cc-notification.cc-light # cc-notify-permissions li.cc-notify-permissions-inactive a.cc-learnmore-link {color: # AAA! Important} # cc-notify.cc-light a, # cc-notify.cc-light a: visitado {color: # 31a8f0! Important} # cc-notify.cc-light a: hover {color: # 257eb4! importante} # cc-notificación.cc-luz h2, # cc-notificación.cc-luz h3, # cc-notificación.cc-luz p {color: # 1d1d1d! importante} # cc-notificación.cc-luz ul.cc -notification-buttons li a, # cc-notify.cc-light ul.cc-notification-buttons li a: visitado {background-color: # f1d600! important; color: # 111! important} # cc-notify.cc- light ul.cc-notify-buttons li # cc-approve-button-allsites: activo, # cc-notify.cc-light ul.cc-notify-buttons li # cc-approve-button-allsites: hover, # cc- notificación.cc-light ul.cc-notificación-botones li a: activo, # cc-notificación.cc-luz ul.cc-notificación-botones li a: hover {background-color: # f5f5f5! important} # cc-notify.cc-light ul.cc -notification-buttons li # cc-approve-button-allsites {background-color: # 31a8f0! important} # cc-tag.cc-light a, # cc-tag.cc-light a: visitado {background-color: # e2e2e2! important; color: # 1d1d1d! important} # cc-modal.cc-light # cc-modal-wrapper {background-color: # e2e2e2! important; color: # f5f5f5! important} # cc-modal.cc-light # cc-modal-wrapper a, # cc-modal.cc-light # cc-modal-wrapper a: visitado {color: # 666! important} # cc-modal.cc-light # cc-modal-wrapper a: hover {color: # 31a8f0! important} # cc-modal.cc-light # cc-modal-wrapper # cc-change-button-allsites {background-color: # 666! important; color: # 111! important} # cc- modal.cc-light # cc-modal-wrapper seleccione {color: # 111! important} # cc-modal.cc-light # cc-modal-wrapper a.cc-consentchange: hover {background-color: # 31a8f0! important} # cc-modal.cc-light # cc-modal-wrapper li strong {color: # 31a8f0! important} # cc-modal.cc-light # cc- modal-wrapper li span {color: # 7a7a7a! important} # cc-settingsmodal.cc-light # cc-settingsmodal-wrapper {background-color: # e1e1e1! important; color: # f5f5f5! important} # cc-modal.cc -light # cc-modal-wrapper p, # cc-settingsmodal.cc-light # cc-settingsmodal-wrapper p {color: # f5f5f5! important} # cc-modal.cc-light # cc-modal-wrapper h2, # cc-settingsmodal.cc-light # cc-settingsmodal-wrapper h2 {color: # 1d1d1d! important} # cc-modal.cc-light # cc-modal-wrapper h2 span, # cc-settingsmodal.cc-light # cc- settingsmodal-wrapper h2 span {color: # 7a7a7a! important} # cc-settingsmodal.cc-light # cc-settingsmodal-wrapper h2 span {color: # 71f031! important} # cc-modal.cc-light # cc-modal- wrapper p.cc-subtitle, # cc-settingsmodal.cc-light # cc-settingsmodal-wrapper p.cc-subtitle {color: # 7a7a7a! important} # cc-settingsmodal.cc-light # cc-settingsmodal-secondclosebutton a, # cc-settingsmodal.cc-light # cc-settingsmodal -secondclosebutton a: visitó {color: # 666! important} # cc-modal.cc-light # cc-modal-global a: active, # cc-modal.cc-light # cc-modal-global a: hover, # cc-modal.cc-light # cc-modal-secondclosebutton a: active, # cc-modal.cc-light # cc-modal-secondclosebutton a: hover, # cc-settingsmodal.cc-light # cc-settingsmodal-secondclosebutton a : activo, # cc-settingsmodal.cc-light # cc-settingsmodal-secondclosebutton a: hover {color: # 1d1d1d! important} # cc-modal.cc-light # cc-modal-wrapper .cc-preferencia-importantmessage a, # cc-modal.cc-light # cc-modal-wrapper .cc-preferencia-importantmessage a: visitado {color: # 111! important; box-shadow: 1px 1px 2px # 000; -moz-box-shadow: 1px 1px 2px # 000; -webkit-box-shadow:1px 1px 2px # 000; color de fondo: # f1d600! Important} # cc-modal.cc-light # cc-modal-wrapper .cc-preferencia-importantmessage a: activo, # cc-modal.cc-light # cc- modal-wrapper .cc-Prefer-importantmessage a: hover {background-color: # 0288ce! important; color: #fff! important; box-shadow: 1px 2px 10px # 000; -moz-box-shadow: 1px 2px 10px # 000; -webkit-box-shadow: 1px 2px 10px # 000} # cc-modal.cc-light # cc-modal-wrapper a.cc-learnmore-link, # cc-notify.cc-light a.cc-learnmore -link, # cc-settingsmodal.cc-light # cc-settingsmodal-wrapper a.cc-learnmore-link {color: # 666! important} # cc-notify.cc-monochrome {background: # 333! important; background- color: rgba (51,51,51, .95)! important; color: #fff! important} # cc-notify.cc-monochrome # cc-notify-permissions li, # cc-notify.cc-monochrome # cc- notificaciones-permisos li strong {color: #fff! important} # notificación-cc.cc-monocromo # cc-notificación-permisos li.cc-notificación-permisos-inactivos, # cc-notificación.cc-monocromo # cc-notificación-permisos li.cc-notificación-permisos-inactivos etiqueta {color: #AAA! importante } # cc-notificación.cc-monocromo # cc-notificación-permisos li.cc-notificación-permisos-inactivo fuerte {color: #bbb! important} # cc-notificación.cc-monocromo # cc-notificación-permisos li.cc -notification-permissions-inactive a.cc-learnmore-link {color: #AAA! important} # cc-notify.cc-monochrome a, # cc-notify.cc-monochrome a: visitado {color: #DDD! important} # cc-notificación.cc-monocromo a: hover {color: #fff! important} # cc-notificación.cc-monocromo h2, # cc-notificación.cc-monocromo h3, # cc-notificación.cc-monocromo p {color : #AAA! Important} # cc-notificación.cc-monocromo ul.cc-notificación-botones li a, # cc-notificación.cc-monocromo ul.cc-notify-buttons li a: visitó {background-color: #ddd! important; color: # 111! important} # cc-notify.cc-monochrome ul.cc-notification-buttons li # cc-approve-button-allsites : activo, # cc-notificación.cc-monocromo ul.cc-notificación-botones li # cc-approve-button-allsites: hover, # cc-notify.cc-monocromo ul.cc-notificación-botones li a: activo, # cc-notificación.cc-monocromo ul.cc-notificación-botones li a: hover {color de fondo: #fff! importante} # cc-notificación.cc-monocromo ul.cc-notificación-botones li # cc-approve- button-allsites {background-color: #ddd! important} # cc-tag.cc-monochrome # cc-tag-button, # cc-tag.cc-monochrome # cc-tag-button: visitado {background-color: # 333! Important; color: #ddd! Important} # cc-tag.cc-monochrome # cc-tag-button: active, # cc-tag.cc-monochrome # cc-tag-button: hover {border-top: 3px solid #fff! important; border-right: 3px solid #fff!important; border-left: 3px solid #fff! important} # cc-modal.cc-monochrome # cc-modal-wrapper li strong, # cc-settingsmodal.cc-monochrome # cc-settingsmodal-wrapper li strong {color: # FFF! Important} # cc-modal.cc-monochrome # cc-modal-wrapper {background-color: # 333! Important; color: # f5f5f5! Important} # cc-modal.cc-monochrome # cc-modal-wrapper a , # cc-modal.cc-monochrome # cc-modal-wrapper a: visitó {color: # 666! important} # cc-modal.cc-monochrome # cc-modal-wrapper a: hover {color: # 31a8f0! important } # cc-modal.cc-monochrome # cc-modal-wrapper # cc-change-button-allsites {background-color: # 666! important; color: # 111! important} # cc-modal.cc-monochrome #cc -modal-wrapper select {color: # 111! important} # cc-modal.cc-monochrome # cc-modal-wrapper a.cc-consentchangechange: hover {background-color: # 31a8f0! important} # cc-modal.cc -monochrome # cc-modal-wrapper li strong {color: #fff! important} # cc-modal.cc-monocromo # cc-modal-wrapper li span {color: # 7a7a7a! important} # cc-settingsmodal.cc-monochrome # cc-settingsmodal-wrapper {background-color: # 333! important; color: # f5f5f5! important} # cc-modal.cc-monochrome # cc-modal-wrapper p, # cc-settingsmodal.cc-monochrome # cc-settingsmodal-wrapper p {color: # f5f5f5! important} # cc-modal.cc-monochrome # cc- modal-wrapper h2, # cc-settingsmodal.cc-monochrome # cc-settingsmodal-wrapper h2 {color: #fff! important} # cc-modal.cc-monochrome # cc-modal-wrapper h2 span, # cc-settingsmodal. cc-monochrome # cc-settingsmodal-wrapper h2 span {color: # 7a7a7a! important} # cc-settingsmodal.cc-monochrome # cc-settingsmodal-wrapper h2 span {color: #ddd! important} # cc-modal.cc- monocromo # cc-modal-wrapper p.cc-subtitle, # cc-settingsmodal.cc-monochrome # cc-settingsmodal-wrapper p.cc-subtitle {color: # 7a7a7a! important} # cc-settingsmodal.cc-monochrome # cc-settingsmodal-secondclosebutton a, # cc-settingsmodal.cc-monochrome # cc-settingsmodal-secondclosebutton a: visitado {color: # 666! important} # cc-modal.cc-monochrome # cc-modal-global a: activo, # cc-modal.cc-monocromo # cc-modal-global a: hover, # cc-modal.cc-monocromo # cc-modal-secondclosebutton a: activo, # cc-modal.cc-monocromo #cc -modal-secondclosebutton a: hover, # cc-settingsmodal.cc-monochrome # cc-settingsmodal-secondclosebutton a: activo, # cc-settingsmodal.cc-monocromo # cc-settingsmodal-secondclosebutton a: hover {color: #fff! important } # cc-modal.cc-monochrome # cc-modal-wrapper .cc-preferencia-importantmessage a, # cc-modal.cc-monochrome # cc-modal-wrapper .cc-preferencia-importantmessage a: visitado {color: # 111! Importante; box-shadow: 1px 1px 2px # 000; -moz-box-shadow: 1px 1px 2px # 000; -webkit-box-shadow: 1px 1px 2px # 000; color de fondo: # f1d600!importante} # cc-modal.cc-monochrome # cc-modal-wrapper .cc-preferencia-importantmessage a: activo, # cc-modal.cc-monochrome # cc-modal-wrapper .cc-preferencia-importantmessage a: hover { background-color: # 0288ce! important; color: #fff! important; box-shadow: 1px 2px 10px # 000; -moz-box-shadow: 1px 2px 10px # 000; -webkit-box-shadow: 1px 2px 10px # 000} # cc-modal.cc-monochrome # cc-modal-wrapper a.cc-learnmore-link, # cc-notify.cc-monochrome a.cc-learnmore-link, # cc-settingsmodal.cc-monochrome #cc -settingsmodal-wrapper a.cc-learnmore-link {color: #ddd! important} # cc-notificación ul.cc-notificación-botones li a, # cc-notificación ul.cc-notificación-botones li a: visitado {float : derecha! importante} # cc-notificación ul.cc-notificación-botones {posición: absoluta! importante; derecha: 0! importante; superior: 5px! importante; ancho: 360px! importante} # cc-notificación.cc-mobile # cc-notify-wrapper {margin-right: 0! important} # cc-notify.cc-mobile ul.cc-notification-buttons li a, # cc-notify.cc-mobile ul.cc-notification- botones li a: visitado {float: none! important} # cc-notify.cc-mobile ul.cc-notify-buttons {padding-top: 1px! important; position: relative! important; right: 0! important; top: 0! Importante; ancho: automático! Importante; claro: ambos} # notificación-cc {fondo: rgba (0,0,0, .6)! Importante; color de fondo: rgba (0,0,0, .6) ! importante; color: rgba (255,255,255, .6)! importante; tamaño de fuente: 11pt! importante} # notificación-cc # notificación-cc-envoltura {relleno: 20px 32px 0! importante} # notificación-cc # notificación-cc -permissions ul {margin: 0 0 26px! important; padding: 0! important; list-style: none! important; float: left! important} # cc-notify.cc-mobile # cc-notify-permissions li {width: ¡auto!importante} # notificación-cc # permisos-notificación-cc li {margen: 0 0 10px 30px! importante; relleno: 6px 0 0! importante; estilo de lista: ninguno! importante; ancho: 440px! importante; color: # 9a9a9a! importante; -webkit-transition: color .2s facilidad-in; -moz-transition: color .2s facilidad-in; -o-transición: color .2s facilidad-in; transición: color .2s facilidad-in} # cc- notificación # cc-notificación-permisos li etiqueta {tamaño-fuente: 12pt! importante; altura de línea: 1.3em; color: # 9a9a9a! importante; -webkit-transition: color .2s facilidad-en; -moz-transition: color .2s facilidad; -o-transición: color .2s facilidad; transición: color .2s facilidad} # cc-notificación # cc-notificación-permisos li entrada {flotante: izquierda! Importante; margen-izquierda: -30px! Importante; margen-superior: 0! Importante} # notificación-cc # permisos-notificación-cc li fuerte {color: # 31a8f0! Importante; pantalla: bloque! Importante; tamaño de fuente: 14pt; espacio entre letras: - .05em;-webkit-transition: facilidad de color .2s; -moz-transición: facilidad de color .2s; -o-transición: facilidad de color .2s; transición: facilidad de color .2s} # cc-notificación # permisos de notificación cc li.cc-notificaciones-permisos-inactivos, # notificación-cc # permisos-notificaciones-cc li.cc-notificación-permisos-inactivos etiqueta {color: # 666! important} # notificación-cc # cc- permisos de notificación li.cc-notificación-permisos-inactivo fuerte {color: # 1d658e! important} # notificación-cc # cc-notificación-permisos li a.cc-learnmore-link {-webkit-transition: color .2s facilidad- en; -moz-transition: color .2s facilidad-en; -o-transition: color .2s facilidad-transición; transición: color .2s facilidad-in} # cc-notificación # cc-notificación-permisos li.cc-notificación -permissions-inactive a.cc-learnmore-link {color: # 666! important} # notificación-cc a, # notificación-cc a: visitado {decoración-texto: ninguna! importante; color:rgba (255,255,255, .6)! importante; tamaño de fuente: 10px! importante} # notificación-cc a: pasar el cursor {texto-decoración: subrayado! importante; color: # b2f7ff! importante} # notificación-cc h2, # cc- notificación h3, # cc-notificación p {color: # f5f5f5! importante; margen: 0! importante; alineación de texto: izquierda! importante; tamaño de fuente: 11pt; ancho: automático! importante} # cc-notificación h2 {margen- derecha: 320 px! importante} # cc-notification.cc-mobile h2 {margen-derecha: 0! importante} # cc-notificación h2, # cc-notificación h2 span {tamaño-fuente: 11px; espacio entre letras: -. 05em ; margen inferior: 20px! importante; peso de fuente: 400! importante; color: # 999} # cc-notificación h2 a {espaciado entre letras: -. 05em; tamaño de fuente: 14pt} # cc-notificación h3 {margen -top: 10px! important} # cc-notification ul.cc-notification-buttons, # cc-notification ul.cc-notification-buttons li {margin: 0! important; padding: 0! important; list-style: none! importante} # notificación-cc.cc-notify-afterload ul.cc-notification-buttons {arriba: auto! important; abajo: 5px! important} # cc-notify ul.cc-notify-buttons li a, # cc-notify ul.cc-notify-buttons li a: visitado {margin-top: 6px! important; margin-bottom: 6px! important; display: block; padding: 8px 16px! important; background-color: # 00accc! important; color: #fff! important; margin- derecha: 12px! importante; decoración de texto: ninguna! importante; tamaño de fuente: 10pt! importante; peso de fuente: 200; espacio entre letras: -. 05em; radio de borde: 5px! importante; -moz-border-radius : 5px! Important; -webkit-border-radius: 5px! Important; transición: fondo .2s facilidad de entrada 0s, color .2s facilidad de entrada 0s, caja-sombra .2s facilidad de entrada 0s; -moz-transition: fondo .2s facilidad de entrada 0s, color .2s facilidad de entrada 0s, -moz-box-shadow .2s facilidad de entrada 0s; -webkit-transition: fondo .2s facilidad- 0s de entrada, 0s de facilidad de entrada de color .2s,-webkit-box-shadow .2s facilidad-en-salida 0s} # cc-notificación ul.cc-notificación-botones li # cc-approve-button-allsites: activo, # cc-notificación ul.cc-notificación-botones li # cc-approve-button-allsites: hover, # cc-notify ul.cc-notify-buttons li a: active, # cc-notify ul.cc-notify-buttons li a: hover {text-decoration: none! important ; box-shadow: 1px 2px 10px # 000; -moz-box-shadow: 1px 2px 10px # 000; -webkit-box-shadow: 1px 2px 10px # 000} # cc-notificación ul.cc-notificación-botones li # cc-approve-button-allsites {background-color: # 31a8f0! important} # cc-modal # cc-modal-wrapper, # cc-tag a, # cc-tag a: visitado {background-color: # 1d1d1d! important ; color: # f5f5f5! important} # cc-tag a, # cc-tag a: visitado {font-size: 12pt! important; background-repeat: no-repeat; background-position: 6px 7px; padding: 8px 12px! importante; decoración de texto: ¡ninguno! importante; pantalla: bloque; borde superior:3px solid # 666! Important; border-right: 3px solid # 666! Important; border-left: 3px solid # 666! Important; border-radius: 3px 3px 0 0! Important; -moz-border-radius: 3px 3px 0 0! Importante; -webkit-border-radius: 3px 3px 0 0! Important; box-shadow: 1px 1px 2px # 000; -moz-box-shadow: 1px 1px 2px # 000; -webkit-box-shadow: 1px 1px 2px # 000; transición: color .2s facilidad de entrada 0s, cuadro-sombra .2s facilidad de entrada 0s; -moz-transición: color .2s facilidad de entrada 0s, -moz-box-shadow. 2s facilidad de entrada 0s; -webkit-transition: color .2s facilidad-in-out 0s, -webkit-box-shadow .2s facilidad-in-out 0s} # cc-tag.cc-tag-horizontal-right a, # cc-tag.cc-tag-horizontal-right a: visitado {-webkit-transform: rotate (-90deg)! important; -moz-transform: rotate (-90deg)! important; -o-transform: rotate (-90deg)! Important; -ms-transform: rotate (-90deg)! Important; margin-right: -82px! Important; padding: 8px 12px 60px! Important} # cc-tag.cc-tag-horizontal-left a, # cc-tag.cc-tag-horizontal-left a: visitado {-webkit-transform: rotate (90deg)! important; -moz-transform: rotate (90deg)! important; - o-transform: rotate (90deg)! important; -ms-transform: rotate (90deg)! important; margin-left: -82px! important; padding: 8px 12px 60px! important} # cc-tag.cc-tag-vertical -right a, # cc-tag.cc-tag-vertical-right a: visitado {-webkit-transform: rotate (-90deg)! important; -moz-transform: rotate (-90deg)! important; -o-transform : rotate (-90deg)! important; -ms-transform: rotate (-90deg)! important; margin-right: -82px! important; padding: 8px 12px 60px! important} # cc-tag.cc-tag-vertical- izquierda a, # cc-tag.cc-tag-vertical-left a: visitado {-webkit-transform: rotate (90deg)! important; -moz-transform: rotate (90deg)! important; -o-transform: rotate ( 90deg)! Important; -ms-transform: rotate (90deg)! Important; margin-left: -82px! Important; padding: 8px 12px 60px!importante} # cc-tag a: activo, # cc-tag a: hover {border-top: 3px solid # f1d600! important; border-right: 3px solid # f1d600! important; border-left: 3px solid # f1d600! important ; box-shadow: 2px 2px 7px # 000; -moz-box-shadow: 2px 2px 7px # 000; -webkit-box-shadow: 2px 2px 7px # 000} # cc-tag a span {font-size: 12pt! important} # cc-modal {font-size: 11pt! important} # cc-modal # cc-modal-wrapper {ancho: 686px! important; margen: 40px auto! important; relleno: 25px 15px 5px! important; alineación de texto : izquierda! importante; posición: relativa! importante; altura máxima: 8%; desbordamiento-y: automático; desbordamiento-x: oculto; altura mínima: 560px; sombra de cuadro: 0 0 30px # 000; -moz-box -sombra: 0 0 30px # 000; -webkit-box-shadow: 0 0 30px # 000} # cc-modal # cc-modal-wrapper a, # cc-modal # cc-modal-wrapper a: visitado {color: # f5f500! important; text-decoration: none! important} # cc-modal # cc-modal-wrapper a: hover {color: # 31a8f0! important; text-decoration: subrayado!importante} # cc-modal # cc-modal-wrapper # cc-change-button-allsites {margin-top: 16px! important; margin-bottom: 6px! important; display: block! important; padding: 6px 12px! important; color de fondo: # f5f500! importante; color: # 111! importante; flotante: izquierda! importante; claro: ambos! importante; margen-derecho: 8px! importante; decoración de texto: ninguno! importante; radio de borde: 3px! importante; -moz-border-radius: 3px! important; -webkit-border-radius: 3px! important} # cc-modal # cc-modal-wrapper # cc-change-button-allsites: activo, # cc-modal # cc-modal-wrapper # cc-change-button-allsites: hover, # cc-modal # cc-modal-wrapper a.cc-consentchangechange: hover {background-color: # 31a8f0! important} # cc-modal # cc- modal-wrapper select, # cc-settingsmodal # cc-settingsmodal-wrapper select {color: # 111! important; margin-right: 8px! important; text-decoration: none! important; position: absolute! important; top: 28px! importante; correcto: 8px!importante; flotante: derecho! importante; tamaño de fuente: 10pt! importante; ancho: 150px} # cc-modal.cc-mobile # cc-modal-wrapper select, # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper seleccione {float: none! important; margin-top: 10px! important; position: static! important} # cc-modal # cc-modal-wrapper ul li label, # cc-settingsmodal # cc-settingsmodal-wrapper ul li label { flotante: izquierda} # cc-modal # cc-modal-wrapper ul, # cc-settingsmodal # cc-settingsmodal-wrapper ul {margin: 0! important; padding: 0 100px! important; list-style: none! important} # cc-modal.cc-mobile # cc-modal-wrapper ul, # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper ul {relleno: 0! importante} # cc-modal # cc-modal-wrapper li, # cc-settingsmodal # cc-settingsmodal-wrapper li {clear: both! important; margin: 0! important; padding: 30px 0 0! important; list-style: none! important; position: relative} # cc-modal # cc- modal-wrapper li fuerte,# cc-settingsmodal # cc-settingsmodal-wrapper li strong {width: 480px! important; float: left! important; display: block! important; color: # 31a8f0! important; font-size: 16pt; font-weight: 400! importante} # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper li strong # cc-modal.cc-mobile # cc-modal-wrapper li strong {float: none! important} # cc-modal # cc-modal- wrapper li span, # cc-settingsmodal # cc-settingsmodal-wrapper li span {width: 470px! important; float: left! important; clear: left! important; display: block! important; color: # 7a7a7a! important; line- height: 1.2em; font-size: 12pt! important; margin-top: 8px} # cc-settingsmodal {font-size: 11pt! important} # cc-settingsmodal.cc-mobile {height: auto} # cc-settingsmodal # cc-settingsmodal-wrapper {width: 716px! important; height: 8%! important; margin: 40px auto! important; background-color: # 1d1d1d! important; padding-top: 24px! important; color: # f5f5f5! important;text-align: left! important; position: relative! important; overflow-x: hidden; max-height: 560px; background-image: url (https://s3-eu-west-1.amazonaws.com/assets. cookieconsent.silktide.com/globe.png);background-position:-20px 20px; background-repeat: no-repeat; box-shadow: 0 0 30px # 000; -moz-box-shadow: 0 0 30px # 000; -webkit-box-shadow: 0 0 30px # 000} # cc-settingsmodal # cc-settingsmodal-wrapper .cc-content {overflow-y: auto! important; overflow-x: hidden! important; height: 400px; margin- arriba: 20px} # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper .cc-content {height: 540px! important; max-height: none! important} # cc-modal # cc-modal-wrapper p {line -height: 1em; margin-top: 12px; color: # f5f5f5! important} # cc-settingsmodal # cc-settingsmodal-wrapper p {margin-top: 32px} # cc-modal # cc-modal-wrapper .cc-content {padding-top: 8px; claro: ambos; altura: 420px; overflow-y: auto; overflow-x:oculto} # cc-modal.cc-mobile # cc-modal-wrapper .cc-content {height: auto! important; overflow: hidden! important} # cc-modal # cc-modal-wrapper h2, # cc-settingsmodal # cc-settingsmodal-wrapper h2 {margin: 0 57px! important; font-size: 24pt! important; width: 712px! important; color: #FFF! important; font-weight: 400} # cc-settingsmodal # cc-settingsmodal- wrapper h2 {margin: 0 72px! important} # cc-modal # cc-modal-wrapper h2 span, # cc-settingsmodal # cc-settingsmodal-wrapper h2 span {font-size: 14pt! important; color: # 7a7a7a! important } # cc-settingsmodal # cc-settingsmodal-wrapper h2 span {color: # 71f031! important} # cc-modal # cc-modal-wrapper p.cc-subtitle, # cc-settingsmodal # cc-settingsmodal-wrapper p.cc -subtitle {color: # 7a7a7a! important; margin: 16px 0 0 57px! important; font-size: 12pt! important} # cc-settingsmodal # cc-settingsmodal-wrapper p.cc-subtitle {margin: 16px 0 0 73px! importante} # cc-modal.cc-mobile # cc-modal-wrapper p.cc-subtitle {margin-left: 0! important} # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper p.cc-subtitle {margin-left: 10px! important } # cc-settingsmodal # cc-settingsmodal-wrapper iframe {ancho: 714px! important; borde: 0! important; min-height: 390px! important} # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper iframe {ancho : 100%! Importante; altura: 500 px; índice z: 9999999999999! Importante; margen superior: 0} # cc-modal # cc-modal-closebutton a, # cc-settingsmodal # cc-settingsmodal-closebutton a {background- image: url (https://s3-eu-west-1.amazonaws.com/assets.cookieconsent.silktide.com/modal-close.png)! important; display: block! important; height: 24px! important; position : absoluto! importante; derecha: 10px! importante; arriba: 10px! importante; ancho: 24px! importante; posición de fondo: 0 0} # cc-modal # cc-modal-closebutton a: hover,# cc-settingsmodal # cc-settingsmodal-closebutton a: hover {background-position: 0 -24px} # cc-modal # cc-modal-global {padding-top: 5px! important} # cc-settingsmodal # cc-settingsmodal- secondclosebutton a, # cc-settingsmodal # cc-settingsmodal-secondclosebutton a: visitado {color: # 71f031! important; text-decoration: none! important} # cc-modal # cc-modal-global a span, # cc-modal # cc-modal-global a: span visitado, # cc-modal # cc-modal-secondclosebutton a span, # cc-modal # cc-modal-secondclosebutton a: span visitado, # cc-settingsmodal # cc-settingsmodal-secondclosebutton a span , # cc-settingsmodal # cc-settingsmodal-secondclosebutton a: span visitado {font-size: 12pt! important; font-weight: 600! important} # cc-settingsmodal.cc-mobile # cc-settingsmodal-secondclosebutton {padding-left : 10px; padding-top: 0} # cc-modal.cc-mobile # cc-modal-global a, # cc-modal.cc-mobile # cc-modal-global a: visitado, # cc-modal.cc-mobile # cc-modal-secondclosebutton a, # cc-modal.cc-mobile # cc-modal-secondclosebutton a: visitado {float: none! important} # cc-settingsmodal.cc-mobile # cc-settingsmodal-secondclosebutton a , # cc-settingsmodal.cc-mobile # cc-settingsmodal-secondclosebutton a: visitado {display: none! important} # cc-modal # cc-modal-global a: active, # cc-modal # cc-modal-global a : hover, # cc-modal # cc-modal-secondclosebutton a: activo, # cc-modal # cc-modal-secondclosebutton a: hover, # cc-settingsmodal # cc-settingsmodal-secondclosebutton a: activo, # cc-settingsmodal # cc-settingsmodal-secondclosebutton a: hover {text-decoration: none! important; color: #fff! important} # cc-modal # cc-modal-wrapper # cc-modal-footer-buttons {margin-left: 57px! important ; margin-top: 25px! important} # cc-settingsmodal # cc-settingsmodal-wrapper # cc-settingsmodal-footer-buttons {margin-left: 72px! important} # cc-modal.cc-mobile # cc-modal-wrapper # cc-modal-footer-buttons {posición: relativo; ancho: automático; relleno superior: 10px! importante; margen izquierdo: 0! importante} # cc-modal # cc-modal -wrapper .cc-preferencia-importantmessage {margin-top: 20px! important; clear: both! important; padding: 10px! important; text-align: left! important; background-color: # 444! important; border: 1px dotted # 666! Important; line-height: 2em! Important} # cc-modal # cc-modal-wrapper .cc-preferencia-importantmessage a, # cc-modal # cc-modal-wrapper .cc-preferencia-importantmessage a: visitado {line-height: 1.2em; margin-top: 0! important; margin-bottom: 0! important; display: block; padding: 5px 10px! important; color: # 111! important; margin-right: 8px! important; text-decoration: none! important; font-size: 10pt; float: right; border-radius: 5px! important; -moz-border-radius: 5px! important; -webkit-border-radius: 5px! important; box- sombra: 1px 1px 2px # 000;-moz-box-shadow: 1px 1px 2px # 000; -webkit-box-shadow: 1px 1px 2px # 000; transición: fondo .2s facilidad de entrada 0s, color .2s facilidad de entrada 0s, caja- shadow .2s 0s facil-in-out; -moz-transition: fondo .2s 0s facil-in-out, color .2s 0s easy-in-out, -moz-box-shadow .2s 0s facil-in-out; -webkit-transition: fondo .2s facilidad de entrada 0s, color .2s facilidad de entrada 0s, -webkit-box-shadow .2s facilidad de entrada 0s; color de fondo: # f1d600! important} # cc-modal # cc-modal-wrapper .cc-preferencia-importantmessage a: activo, # cc-modal # cc-modal-wrapper .cc-preferencia-importantmessage a: hover {text-decoration: none! important; background-color : # 0288ce! Important; color: #fff! Important; box-shadow: 1px 2px 10px # 000; -moz-box-shadow: 1px 2px 10px # 000; -webkit-box-shadow: 1px 2px 10px # 000} # cc-modal # cc-modal-wrapper a.cc-learnmore-link, # cc-notificación a.cc-learnmore-link,# cc-settingsmodal # cc-settingsmodal-wrapper a.cc-learnmore-link {color: #FFF! important} # cc-modal.cc-mobile # cc-modal-wrapper {height: auto! important; min-height: heredar! importante} # cc-modal.cc-mobile # cc-modal-wrapper, # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper {margin-top: 0! important; width: auto! important; border: 0! Importante; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; background-image: none! Important; max-height: none! Important} # cc-modal.cc -mobile # cc-modal-wrapper h2 {width: auto! important; margin-left: 0! important} # cc-modal.cc-mobile # cc-modal-wrapper h2 span, # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper h2 span {display: block; margin-top: 8px} # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper h2 {margin-left: 10px! important; width: auto! important} #cc -modal.cc-mobile # cc-modal-wrapper li span, # cc-settingsmodal.cc-mobile # cc-settingsmodal-wrapper li span {width: auto! important; float: none! important} # cc-modal.cc-mobile # cc-modal-wrapper a.cc-consentchange {margin-top: 10px! importante; flotante: ninguno! importante} # cc-modal # cc-modal-wrapper li strong {width: auto! important}
+
+            / * ! normalize.css v3.0.1 | Licencia MIT | git.io/normalize * / img, legend {
+            border: 0
+        }
+
+        legend, td, th {
+            padding: 0
+        }
+
+        html {
+            font-family: sans-serif; -ms-text-size-ajustar: 100%; - webkit- texto-tamaño-ajuste: 100%
+        }
+
+        cuerpo {
+            margen: 0
+        }
+
+        artículo, aparte, detalles, figcaption, figura, pie de página, encabezado, hgroup, main, nav, sección, resumen {
+            display: block
+        }
+
+        audio, lienzo, progreso, video {
+            display: inline-block; vertical-align: baseline
+        }
+
+        audio: not ([controles]) {
+            display: none; height: 0
+        }
+
+        [oculto], plantilla {
+            display: none
+        }
+
+        a {
+            background: 0 0
+        }
+
+        a: active, a: hover {
+            outline: 0
+        }
+
+        abbr [título] {
+            border-bottom: 1px dotted
+        }
+
+        b, optgroup, strong {
+            font-weight: 700
+        }
+
+        dfn {
+            font-style: italic
+        }
+
+        h1 {
+            font-size: 1.17em; margen: .67em 0
+        }
+
+        marca {
+            background: # ff0; color: # 000
+        }
+
+        small {
+            font-size: 80%
+        }
+
+        sub, sup {
+            font-size: 75%; line-height: 0; position: relative; vertical- align: baseline
+        }
+
+        sup {
+            top: -. 5em
+        }
+
+        sub {
+            bottom: -. 25em
+        }
+
+        svg: not (: root) {
+            overflow: hidden
+        }
+
+        figure {
+            margin: 1em 40px
+        }
+
+        hr {
+            -moz-box-sizing: # home, body {
+                overflow-x: hidden
+            }
+
+            #menuprincipal ul li a, .btn, .flechaabajo> a, .navmobile a, a, div # home aside.cookies pa, div # home> header> nav a, footer> nav li a {
+                text-decoration: none
+            }
+
+            body {
+                background: #FDFDFD; font-family: 'Titillium Web', sans-serif; margin: 0; font-weight: 200
+            }
+
+            .hide {
+                display: none
+            }
+
+            .clearfix: después de {
+                content: "."; display: block; clear: both; visibilidad: oculta; line-height: 0; height: 0
+            }
+
+            # angle-left, # angle-up {
+                bottom: 100px; display: none
+            }
+
+            #angle -down, # angle-up {
+                right: 50px; line-height: 40px
+            }
+
+            # angle-down, # angle-left, # angle-up {
+                color: #fff; background-color: rgba (50, 50, 50, .5); ancho: 40px; altura: 40px; tamaño de fuente: 35px; radio del borde: 5px; índice z: 9999999; alineación de texto: centro; posición: fija; cursor: puntero
+            }
+
+            # ángulo-izquierda {
+                derecha : 100px
+            }
+
+            # angle-down {
+                bottom: 50px
+            }
+
+            .clearfix {
+                display: inline-block
+            }
+
+            html [xmlns] .clearfix {
+                display: block
+            }
+
+            * html .clearfix {
+                height: 1%
+            }
+
+            .force-margin-0 {
+                margin-top: 0 ! important; margin-bottom: 0 ! important
+            }
+
+            .force-padding-0 {
+                padding-top: 0 ! important; padding-bottom: 0 ! important
+            }
+
+            .margin {
+                border: 0; margen: 0
+            }
+
+            .margin-100-top {
+                margin-top: 100px
+            }
+
+            .margin-100-bottom {
+                margin-bottom: 100px
+            }
+
+            .margin-85-top {
+                margin-top: 85px
+            }
+
+            .margin-85- bottom {
+                margin-bottom: 85px
+            }
+
+            .margin-75-top {
+                margin-top: 75px
+            }
+
+            .margin-75-bottom {
+                margin-bottom: 75px
+            }
+
+            .margin-65-top {
+                margin-top: 65px
+            }
+
+            .margin- 65-bottom {
+                margin-bottom: 65px
+            }
+
+            .margin-55-top {
+                margin-top: 55px
+            }
+
+            .margin-55-bottom {
+                margin-bottom: 55px
+            }
+
+            .margin-40-top {
+                margin-top: 40px
+            }
+
+            . margin-40-bottom {
+                margin-bottom: 40px
+            }
+
+            .margin-30-top {
+                margin-top: 30px
+            }
+
+            .margin-30-bottom {
+                margin-bottom: 30px
+            }
+
+            .cc-revoke {
+                display: none ! important
+            }
+
+            # menuprincipal {
+                display: block; text-align: center; width: 100%; height: 75px; background-color: #fff; position: fixed; z-index: 99; -webkit-box-shadow: 0 -30px 97px 31px rgba (0, 0, 0, .55); - moz-box-shadow:0 -30px 97px 31px rgba (0, 0, 0, .55); box-shadow: 0 -30px 97px 31px rgba (0, 0, 0, .55)
+            }
+
+            # menuprincipal ul {
+                ancho: 718px; margen: 0 automático; altura: 76px; tipo de estilo de lista: ninguno; tamaño de fuente: 0; relleno: 0
+            }
+
+            #menuprincipal ul li {
+                display: inline-block; height: 76px; min-width: 129px; text-align: center; line-height: 75px; border: 0; font-size: 16px; font-weight: 600
+            }
+
+            #menuprincipal ul li a {
+                display: inline-block; width: 100%; color: # 666
+            }
+
+            #menuprincipal .logo {
+                background {
+                    background : url (../ img / NAV_SUP_LOGO.png); ancho: 200px; altura: 75px
+                }
+
+                #menuprincipal .contacto .contacto> a, # menuprincipal .equipo .equipo> a, # menuprincipal .localizacion .localizacion> a, # menuprincipal .trabajos .trabajos> a, # menuprincipal ul li.limenu> a: hover {
+                    background-color: # 00a4c8; color: #fff
+                }
+
+                #menuprincipal div.contact_by_phone, # menuprincipal> div: first-child {
+                    display: inline-block; familia de fuentes: Titillium Web; color: # 00a4c8; tamaño de fuente: 17px; font-weight: 300; margin-top: 20px
+                }
+
+                #menuprincipal> div: first-child {
+                    float: left; border-right: 1.5px solid # 00a4c8; padding-right: 20px; margin-left: 25px
+                }
+
+                #menuprincipal div .contact_by_phone {
+                    float: right; border-left: 1.5px solid # 00a4c8; padding-left: 20px; margin-right: 25px; margin-top: -65px
+                }
+
+                #menuprincipal div.contact_by_phone.phone-one-line {
+                    margin- arriba: -57px
+                }
+
+                #menuprincipal> div: primer hijo span {
+                    margin-right: 7px
+                }
+
+                #menuprincipal div.contact_by_phone .phones {
+                    display: inline-block; margin-left: 7px; padding-left: 10px; padding-right : 10px
+                }
+
+                #menuprincipal div.contact_by_phone .phone-icon {
+                    display: inline-block
+                }
+
+                #menuprincipal div.contact_by_phone .phone-icon .fa.fa-phone {
+                    font-size: 20px; border: 1.5px solid # 00a4c8; border -radio: 100%; alineación vertical: medio; margen superior: -25px; relleno: 8px 10px
+                }
+
+                #menuprincipal div.contact_by_phone.phone-one-line .phone-icon .fa.fa-phone {
+                    margin-top:-6px
+                }
+
+                #menuprincipal div.flags {
+                    display: inline-block
+                }
+
+                #menuprincipal div.flags a.flag {
+                    text-indent: -999em
+                }
+
+                #menuprincipal div.flags a.flag.flag-us {
+                    background-position: -448px -418px
+                }
+
+                #menuprincipal div.flags a.flag.flag-es {
+                    background-position: 0 -130px
+                }
+
+                @media (max-width: 1250px) {
+                    # menuprincipal> div: first-child {
+                        padding-right: 10px; margin -izquierda: 15px
+                    }
+
+                    #menuprincipal div.contact_by_phone {
+                        padding-left: 10px; margin-right: 15px
+                    }
+
+                    #menuprincipal ul {
+                        width: 600px
+                    }
+
+                    #menuprincipal ul li {
+                        min-width: 98px
+                    }
+                }
+
+                @ media (max-width: 1100px) {
+                    # menuprincipal> div: first-child {
+                        padding-right: 3px; margin-left: 5px
+                    }
+
+                    #menuprincipal div.contact_by_phone {
+                        padding-left: 3px; margin-right: 5px
+                    }
+
+                    #menuprincipal ul {
+                        width: 600px
+                    }
+                }
+
+                @media (max-width: 1024px) {
+                    # menuprincipal div.contact_by_phone, # menuprincipal> div: first-child {
+                        display: none
+                    }
+
+                    #menuprincipal ul {
+                        width: 718px
+                    }
+
+                    #menuprincipal ul li {
+                        min-width: 129px
+                    }
+                }
+
+                .navmobile {
+                    display: none; width: 100%; height: 50px; background-color: #fff; position: fixed; z-index: 99999999; -webkit-box-shadow: 0 -30px 97px 31px rgba (0, 0, 0, .75); - moz-box-shadow: 0 -30px 97px 31px rgba (0, 0, 0, .75); box-shadow: 0 -30px 97px 31px rgba (0, 0, 0, .75)
+                }
+
+                .navmobile ul {
+                    display: none; position: absolute; background: #fff; width: 100%; margin: 0; padding: 0
+                }
+
+                .navmobile ul li {
+                    display: block; height: 30px; min-width: 100%; text-align: left; line-height: 30px; border: 0; font-size: 16px; font-weight: 600; border-bottom: 1px solid #ddd; padding: 10px 20px
+                }
+
+                .navmobile .logo {
+                    background: background: url (../ img / NAV_SUP_LOGO.png) 50% sin repetición; ancho: 78%; altura: 50px; pantalla: bloque en línea; tamaño de fuente: 0
+                }
+
+                .navmobile .linkcontacto, .navmobile .togglemenu {
+                    pantalla: bloque en línea; ancho: 11%; alineación de texto: centro; alineación vertical: arriba; tamaño de fuente: 19px
+                }
+
+                .navmobile .linkcontacto i, .navmobile .linkcontacto span, .navmobile .togglemenu i, .navmobile .togglemenu span {
+                    line-height: 50px; cursor: pointer
+                }
+
+                .navmobile a {
+                    display: inline-block; width: 100%; height: 100%; color: # 666; font-size: 18px
+                }
+
+                div # home {
+                    padding-top: 75px
+                }
+
+                div # home lateral.cookies {
+                    min-height: 45px; color de fondo: rgba (0, 0, 0, .6); color: rgba (255, 255, 255, .6); desbordamiento: oculto; posición : fijo; ancho: 100%; índice z: 10000
+                }
+
+                div # inicio a un lado.cookies p {
+                    altura de línea: 45 px; margen: 0 automático; alineación de texto: centro; tamaño de fuente: 12 px
+                }
+
+                div # inicio a un lado. cookies pa {
+                    display: bloque en línea; ancho: 100 px; altura: 25 px; altura de línea: 25 px; color: #fff; color de fondo: # 00a4c8; radio del borde: 5 px; margen izquierdo: 20 px; margen inferior : 10px
+                }
+
+                div # home aside.cookies pai, div # home aside.cookies pa span {
+                    margin-left: 5px
+                }
+
+                div # home header: not (.not-line) {
+                    position: fixed; width: 100%; background- color: #fff; min-height: 0; height: auto; z-index: 9999999999; -webkit-box-shadow: 0 18px 26px -9px rgba (0, 0, 0, .35); - moz-box- sombra:0 18px 26px -9px rgba (0, 0, 0, .35); box-shadow: 0 18px 26px -9px rgba (0, 0, 0, .35); borde superior: 1px sólido #dfdfdf
+                }
+
+                .ie svg .animation {
+                    width: auto
+                }
+
+                @media screen y (min-width: 884px) {
+                    # home .ie # robot svg.animation {
+                        margin-top: -278px
+                    }
+                }
+
+                @ media screen and (min-width: 960px) {
+                    # home .ie # robot svg.animation {
+                        margin-top: -265px
+                    }
+                }
+
+                @ media screen y (min-width: 1024px) {
+                    # home .ie # robot svg.animation {
+                        margin-top: -242px
+                    }
+                }
+
+                @ media screen y (min-width: 1150px) {
+                    # home .ie # robot svg.animation {
+                        margin-top: -218px
+                    }
+                }
+
+                @ media screen y (min-width: 1280px) {
+                    # home .ie # robot svg.animation {
+                        margin -top: -186px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1360px) {
+                    # home .ie # robot svg.animation {
+                        margin-top: -167px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1480px) {
+                    # home .ie # robot svg.animation {
+                        margin-top: -139px
+                    }
+                }
+
+                @ media screen y (min-width: 1520px) {
+                    # home .ie # robot svg.animation {
+                        margin-top: -130px
+                    }
+                }
+
+                @ media screen y (ancho mínimo:1645px) {
+                    # home .ie # robot svg.animation {
+                        margin-top: -100px
+                    }
+                }
+
+                @ media screen y (min-width: 1800px) {
+                    # home .ie # robot svg.animation {
+                        margin-top: -64px
+                    }
+                }
+
+                @media screen y (min-width: 884px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -500px
+                    }
+                }
+
+                @ media screen and (min-width: 960px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -475px
+                    }
+                }
+
+                @ media screen y (min-width: 1024px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -425px
+                    }
+                }
+
+                @ media screen y (min-width: 1150px) {
+                    #home .ie # robot + # clientes {
+                        margin-top: -360px
+                    }
+                }
+
+                @ media screen y (min-width: 1280px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -300px
+                    }
+                }
+
+                @ media screen y (min-width: 1360px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -260px
+                    }
+                }
+
+                @ media screen y (min-width: 1480px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -200px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1520px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -170px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1645px) {
+                    # inicio.es decir, # robot + # clientes {
+                        margin-top: -130px
+                    }
+                }
+
+                @ media screen y (min-width: 1800px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -64px
+                    }
+                }
+
+                @ media screen y (min- ancho: 1480px) y (altura máxima: 550px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -200px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1480px) y (altura máxima: 450px) {
+                    #home .ie # robot + # clientes {
+                        margin-top: -200px
+                    }
+                }
+
+                @ media screen y (min-width: 1480px) y (max-height: 400px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -200px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1480px) y (altura máxima: 350px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -200px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1480px) y (altura máxima: 300px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -200px
+                    }
+                }
+
+                @ pantalla de medios y (min-width: 1480px) y (max-height: 250px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -200px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1480px) y (max-height: 200px) {
+                    # home .ie # robot + # clientes {
+                        margin-top:-200px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1520px) y (altura máxima: 550px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: -30px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1520px) y (altura máxima: 450px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 50px
+                    }
+                }
+
+                @ pantalla de medios y (min-width: 1520px) y (max-height: 400px) {
+                    # home. es decir, # robot + # clientes {
+                        margin-top: 75px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1520px) y (max-height: 350px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 100px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1520 px) y (altura máxima: 300 px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 150px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1520 px) y (max- altura: 250 px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 200px
+                    }
+                }
+
+                @ media screen y (ancho mínimo: 1520px) y (max-height: 200px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 250px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1645px) y (altura máxima: 550px) {
+                    # home .ie # robot + # clientes {
+                        margin-top:-30px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1645px) y (altura máxima: 450px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 50px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1645px) y (altura máxima: 400px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 75px
+                    }
+                }
+
+                @ pantalla multimedia y (ancho mínimo: 1645px) y (altura máxima: 350px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 100px
+                    }
+                }
+
+                @ media screen y (ancho mínimo: 1645px) y (max-height: 300px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 150px
+                    }
+                }
+
+                @ media pantalla y (ancho mínimo: 1645px) y (altura máxima: 250px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 200px
+                    }
+                }
+
+                @ pantalla multimedia y (ancho mínimo: 1645px) y (altura máxima : 200px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 250px
+                    }
+                }
+
+                @ media screen y (ancho mínimo: 1800px) y (max-height: 525px) {
+                    # home .ie # robot + # clientes {
+                        margin -top: 10px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1800px) y (altura máxima: 450px) {
+                    # home .ie # robot + # clientes {
+                        margin-top:50px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1800px) y (altura máxima: 400px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 100px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1800px) y (altura máxima: 350px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 150px
+                    }
+                }
+
+                @ pantalla de medios y (ancho mínimo: 1800px) y (altura máxima: 300px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 225px
+                    }
+                }
+
+                @ pantalla multimedia y (ancho mínimo: 1800px) y (altura máxima: 250px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 275px
+                    }
+                }
+
+                @ pantalla multimedia y (ancho mínimo: 1800 px) y (alto máximo: 200 px) {
+                    # home .ie # robot + # clientes {
+                        margin-top: 325px
+                    }
+                }
+
+                @ media (-webkit-min-device-pixel-ratio: 2) {
+                    div # encabezado de inicio: no (.not-line) {
+                        margin-top: -1.6px
+                    }
+                }
+
+                div # encabezado de inicio: no (.not-line) .not-shadow {
+                    -webkit-box-shadow: none; -moz -box-shadow: none; box-shadow: none; z-index: 9999999; border: 0
+                }
+
+                div # home> header: not (.not-line)> nav {
+                    background: 0 0; min-height: 0; relleno inferior: 0; altura: 215 px; pantalla:block
+                }
+
+                div # home> header: not (.not-line)> nav.navLineas {
+                    height: 167px
+                }
+
+                section # home> header: not (.not-line)> nav> ul {
+                    position: relative; margin: 0; relleno: 45px 0
+                }
+
+                div # inicio> encabezado: no (.not-line)> nav.navLineas> ul {
+                    padding-top: 26px
+                }
+
+                div # home> encabezado: no (.not-line)> nav> ul li {
+                    margin-top: 0
+                }
+
+                div # home> header: not (.not-line) .contentbtndesplegable {
+                    width: 200px; height: 65px; position: absolute; left: 0; right: 0; margin-left: auto; margin- derecha: automático; desbordamiento: oculto
+                }
+
+                div # inicio> encabezado: no (.not-line) .btndesplegable {
+                    ancho: 133px; altura: 40px; fondo: #fff; radio de borde: 50%; margen superior: -147px; cursor: puntero; padding-top: 160px; padding-left: 67px; -webkit-box-shadow: 0 0 25px -2px rgba (0, 0, 0, .75); - moz-box-shadow: 0 0 25px -2px rgba (0, 0, 0, .75); box-shadow: 0 0 25px -2px rgba (0, 0, 0, .75)
+                }
+
+                . Infopersonal .btndesplegable div, div # home> encabezado: no (.not-line).btndesplegable div {
+                    display: inline-block; width: 10px; height: 10px; border-radius: 50%
+                }
+
+                . btndesplegable div.color0 {
+                    background: # 009e93
+                }
+
+                .btndesplegable div.color1 {
+                    background: # 648092
+                }
+
+                .btndesplegable div. color2 {
+                    background: # db378b
+                }
+
+                .btndesplegable div.color3 {
+                    background: # 7cae00
+                }
+
+                .btndesplegable div.color4 {
+                    background: # f49100
+                }
+
+                .right-margin {
+                    margin-right: 129px
+                }
+
+                @media (max-width: 1250px) {
+                    .right-margin {
+                        margin-right: 98px
+                    }
+                }
+
+                . svg .animation {
+                    width: 100%; height: auto
+                }
+
+                @media (min-width: 1920px) {
+                    # robot.ie {
+                        background-color: # 20BFD7
+                    }
+                }
+
+                # empresa {
+                    position: relative; z-index: 100
+                }
+
+                # robot.ie {
+                    height: 875px; text-align: center; position: relative; z-index: -1
+                }
+
+                div # home> header> nav> div, div # home> header> nav> ul {
+                    width: 100%; position: absolute; bottom: 0; text-align: center
+                }
+
+                # robot.ie svg.animation {
+                    width: 100%; height: auto; max-width: 1870px; margin-top: -70px
+                }
+
+                div # encabezado de inicio {
+                    min-height: 93vh; height: 93%; background-color: #fff
+                }
+
+                div # home> header> nav> div {
+                    display: block; color: #fff; font-size: 30px; margin-bottom: 20%; z-index: 100
+                }
+
+                div # home> header > nav> div h2 {
+                    font-size: 86px; font-weight: 200; line-height: 20px
+                }
+
+                div # home> header> nav> div p {
+                    line-height: 8px; font-size: 32px; font-weight : 200
+                }
+
+                div # home> header> nav> ul {
+                    height: 100%; list-style-type: none; padding: 0; z-index: 1
+                }
+
+                div # home> header> nav.navLineas> ul {
+                    position: relativo
+                }
+
+                div # inicio> encabezado> navegar a {
+                    display: block; ancho: 95px; altura: 95px; posición de fondo: centro; radio del borde: 50%; - webkit-transition: all .5s linear; -moz-transition : todos los .5s lineales; -ms-transición: todos los .5s lineales; -o-transición: todos los .5s lineales; transición: todos los .5s lineales; sangría de texto: -9999px
+                }
+
+                div # home> encabezado> nav div.enlaces {
+                    display: block ! important; line-height: 38px; text-align: center; width: 470px; height: 60px; margin: 50px auto 0; background-color: #FFF; border-radius: 5px
+                }
+
+                @media (max-width: 500px) {
+                    div # home> header> nav div.enlaces {
+                        height: 105px
+                    }
+                }
+
+                div # home> header> nav div.enlaces a {
+                    display: inline; color: # 00a4c8; font-size: 20px; font-weight: 300; line-height: 58px
+                }
+
+                div # home> header> nav div.enlaces a .fa {
+                    display: inline; padding-left: 10px
+                }
+
+                @media (ancho máximo: 767px) {
+                    div # home> encabezado> nav .enlaces, div # home> encabezado> nav div.enlaces {
+                        width: 70%
+                    }
+                }
+
+                div # home> encabezado> nav a.enlaces {
+                    altura de línea: 38 px; alineación de texto: centro; ancho: 470 px; margen: 0 automático; color de fondo: #FFF; radio del borde: 5 px; pantalla: en línea; color: # 00a4c8; tamaño de fuente: 20 px; fuente -weight: 300; padding: 15px; top: 20px; position: relative
+                }
+
+                div # home> header> nav a.enlaces .fa {
+                    display: inline; padding-left: 10px
+                }
+
+                div # home> header> nav.navLineas a {
+                    ancho: 88 px; altura: 1 px; sangría de texto: -9999 px; borde: 0; tamaño de fondo: 94%; relleno superior: 86 px; margen: 0 auto 5px 0
+                }
+
+                div # home> encabezado> nav> ul> li a.lineaon, div # home> encabezado> nav> ul> li a: hover, div # home> encabezado> nav> ul> li.active a {
+                    border: 10px solid #fff; -webkit-transition: all .5s linear; -moz-transition: all .5s linear; -ms-transition: all .5s linear; -o-transition: all .5s linear; transición : todos .5s linear
+                }
+
+                div # home> encabezado> nav.navLineas> ul> li a.lineaon, div # home> encabezado> nav.navLineas> ul> li a: hover, div # home> encabezado> nav.navLineas> ul> li.active a {
+                    border: none
+                }
+
+                div # home> header> nav> ul> li {
+                    margin-top: 76vh; display: inline-block; margin-left: 10px
+                }
+
+                div # home> header> nav.navLineas > ul> li {
+                    margin: 0 10px; text-align: center; font-size: 14px; vertical-align: top
+                }
+
+                div # home .link-social {
+                    position: fixed; top: 150px; z-index: 999999; izquierda: -1px; borde: 1px sólido # dfdfe0; borde-radio: 3px
+                }
+
+                div # inicio.link-social a {
+                    display: block; color: #fff; font-size: 26px; text-align: center; padding: 7px 10px
+                }
+
+                div # home .link-social a .blog {
+                    font-size: 30px; line- altura: 27px; peso de fuente: 700; estilo de fuente: normal
+                }
+
+                div # home .link-social a: hover {
+                    background: #fff; transición: .5s background
+                }
+
+                div # home .link-social a: hover .fa -facebook {
+                    color: # 3b5998
+                }
+
+                div # home .link-social a: hover .fa-twitter {
+                    color: # 64a8ea
+                }
+
+                div # home .link-social a: hover .fa-linkedin {
+                    color: # 0077b5
+                }
+
+                div # inicio .link-social a: hover .fa-youtube {
+                    color: # b31217; fondo: -webkit-linear-gradient (arriba, # 000 0, # 000 40%, # b31217 41%, # b31217 100%); - webkit-background-clip: text; -webkit-text-fill-color: transparent
+                }
+
+                div # home .link-social a: hover .blog {
+                    color: # ff8900
+                }
+
+                div # home .link-social a: hover .fa- google-plus {
+                    color: # d34836
+                }
+
+                div # home .link-social a: hover .fa-instagram {
+                    color: # 3f729b
+                }
+
+                div # home .link-social a + a {
+                    border-top: 1px solid # dfdfe0
+                }
+
+                .flechaabajo {
+                    posición: fija; fondo: 50px; ancho: 100%
+                }
+
+                . flechaabajo> a {
+                    color: #fff; color de fondo: rgba (255, 255, 255, .2); ancho: 75px; altura: 75px; alineación de texto: centro; margen: 35px auto 0; pantalla: bloque; radio del borde: 50%; - webkit-transition: todas las .3s lineales; -moz-transición: todas las .3s lineales; -ms-transición: todas las .3s lineales; -o -transición: todos los .3s lineales; transición: todos .3s lineales
+                }
+
+                .btn, .flechaabajo> a: hover {
+                    -webkit-transition: todos .3s lineales; -moz-transition: todos .3s lineales; -ms-transition: todos .3s lineales; -o-transición: todos .3s lineales
+                }
+
+                .flechaabajo> ai, .flechaabajo> a span {
+                    line-height: 75px
+                }
+
+                .flechaabajo> a: hover {
+                    background-color: rgba (255, 255, 255, .4); transición: todos los .3s lineales
+                }
+
+                .lineanegocio {
+                    fondo: url (../ img / LINEA_1.png) sin repetición # 009e93; borde: 10px sólido # 009e93
+                }
+
+                .lineaingenieria {
+                    fondo: url (../ img / LINEA_2 .png) sin repetición # 678396; borde: 10px sólido # 678396
+                }
+
+                .lineabranding {
+                    background: url (../ img / LINEA_3.png) no-repeat # db378b; border: 10px solid # db378b
+                }
+
+                .lineaappmovil {
+                    background: url (../ img / LINEA_4.png) no-repeat # 7cae00; border: 10px solid # 7cae00
+                }
+
+                .lineaformacion {
+                    background: url (../ img / LINEA_5.png) no-repeat # f99400; border: 10px solid # f99400
+                }
+
+                .navLineas ul li a {
+                    background-color: #bfbfbf
+                }
+
+                . navLineas .negocio {
+                    color: # 009e93
+                }
+
+                .navLineas .ingenieria {
+                    color: # 678396
+                }
+
+                .navLineas .branding {
+                    color: # db378b
+                }
+
+                .navLineas .appmovil {
+                    color: # 7cae00
+                }
+
+                .navLineas .formacion {
+                    color: # f99400
+                }
+
+                . navLineas ul li span {
+                    display: none; font-weight: 300
+                }
+
+                .navLineas ul li a.lineaon + span, .navLineas ul li: hover span {
+                    display: block; position: absolute; min-width: 88px
+                }
+
+                .navLineas ul li a.lineaon.lineanegocio, .navLineas ul li: hover a.lineanegocio {
+                    background-color: # 009e93
+                }
+
+                .navLineas ul li a.lineaon.lineaingenieria, .navLineas ul li: hover a.lineaingenieria {
+                    background-color: # 678396
+                }
+
+                .navLineas ul li a.lineaon.lineabranding, .navLineas ul li: hover a.lineabranding {
+                    background-color: # db378b
+                }
+
+                .navLineas ul li a.lineaon.lineaappmovil, .navLineas ul li : hover a.lineaappmovil {
+                    background-color: # 7cae00
+                }
+
+                .navLineas ul li a.lineaon.lineaformacion, .navLineas ul li: hover a.lineaformacion {
+                    background-color: # f99400
+                }
+
+                article.aboutus {
+                    color: #fff; padding -bottom: 35px; background: # 27accc; background: -moz-linear-gradient (top, rgba (39, 172, 204, 1) 0, rgba (31, 156, 194, 1) 100%); background: -webkit-gradient (linear, left top, fondo izquierdo, color-stop (0, rgba (39, 172, 204, 1)), color-stop (100%, rgba (31, 156, 194, 1))); fondo: -webkit-linear-gradient (arriba, rgba (39, 172, 204, 1) 0, rgba (31, 156, 194, 1) 100%); fondo: -o-linear-gradient (arriba, rgba (39, 172, 204, 1) 0, rgba (31, 156, 194, 1) 100%); background: -ms-linear-gradient (arriba, rgba (39, 172, 204, 1) 0, rgba (31, 156, 194, 1) 100%); fondo: gradiente lineal (hacia abajo, rgba (39, 172, 204, 1) 0, rgba (31, 156, 194, 1) 100%)
+                }
+
+                article.aboutus> div: first-child {
+                    display: table; altura: 650px
+                }
+
+                article.aboutus> div> div {
+                    display: table-cell; vertical-align: middle; ancho: 50%
+                }
+
+                @ media (max-width: 767px) {
+                    article.aboutus> div: first-child {
+                        height: auto
+                    }
+                }
+
+                article.aboutus p.more-size, article.empresa p.more-size {
+                    position: relative; margin-top: 0
+                }
+
+                article.aboutus p.more-size .comillas, article.empresa p.more -size .comillas {
+                    font-size: 110px; line-height: 44px; position: absolute; top: 20px; left: -5px; font-style: normal; font-weight: 300; padding: 0
+                }
+
+                article.empresa i, article.empresa span {
+                    font-size: 5px; vertical-align: middle
+                }
+
+                article.aboutus p {
+                    margin: 30px 0
+                }
+
+                article.aboutus p.nomargintop {
+                    margin-top: 0
+                }
+
+                article.aboutus p.nomarginbottom {
+                    margin- bottom: 0
+                }
+
+                article.empresa p.more-size .comillas {
+                    top: 10px
+                }
+
+                artículo.aboutus p.more-size span, article.empresa p.more-size span {
+                    display: inline-block; padding-left: 40px; font-size: 25px
+                }
+
+                section # robot {
+                    font-size: 0
+                }
+
+                .aboutuslogo {
+                    background : url (../ img / INDEX_LOGO.png) 70% 50% sin repetición
+                }
+
+                article.aboutus> div> div: last-child {
+                    padding-right: 20%
+                }
+
+                article.aboutus> div> div> h2 {
+                    font -tamaño: 40px; peso de fuente: 200; margen inferior: 0
+                }
+
+                .btnwhite {
+                    color de fondo: #fff; color: # 00a4c8; -webkit-box-shadow: 0 3px 16px -5px rgba (0, 0, 0, .75); - moz-box-shadow: 0 3px 16px -5px rgba (0, 0, 0, .75); box-shadow: 0 3px 20px -5px rgba (0, 0, 0, .75)
+                }
+
+                .btnblue {
+                    background-color: # 00a4c8; color: #fff
+                }
+
+                .btn.btnblue {
+                    min-width: 150px
+                }
+
+                .btn {
+                    min-width: 90px; display: inline-block; padding: 10px 20px; border-radius : 3px; peso de fuente: 200; tamaño de fuente: 22px; transición: todos .3s lineales
+                }
+
+                .btn: hover, .btn: hover i, .btn: hover span {
+                    -webkit-transition: all .3s linear; - transición de moz: todos los .3s lineales; -ms-transición: todos los .3s lineales; -o-transición: todos los .3s lineales
+                }
+
+                .btn: hover {
+                    min-width: 120px; transición: todos los .3s linear
+                }
+
+                .btn: hover i, .btn: hover span {
+                    margin-left: 30px; transición: all .3s linear
+                }
+
+                .btn> i, .btn> span {
+                    margin-left: 10px; font-size: 27px; margin-top: -3px; vertical-align: middle; -webkit -transición: todos los .3s lineales; -moz-transición: todos los .3s lineales; -ms-transición: todos los .3s lineales; -o-transición: todos los .3s lineales; transición: todos los .3s lineales
+                }
+
+                . > i, article.empresa .btn> span {
+                    font-size: 27px
+                }
+
+                article.proyectos {
+                    min-height: 93%
+                }
+
+                article.proyectos ul {
+                    list-style-type: none; padding: 0; font-size: 0; text-align: center
+                }
+
+                article.proyectos ul li {
+                    display: inline-block; width: 33.333333%; min-height: 50%; height: 48vh; background-size: cover; background-position: center; vertical-align : top; border-right: 1px solid #fff; box-sizing: border-box; border-top: 1px solid #fff
+                }
+
+                artículo.proyectos ul li a {
+                    display: table; width: 100%; min-height: 31.1vh; height: 100%; position: relative
+                }
+
+                article.proyectos ul li a :: before {
+                    position: absolute; background: # 3fa9f5; width : 100%; altura: 100%; opacidad: .3; índice z: 1; contenido: ""; izquierda: 0
+                }
+
+                article.proyectos ul li a img {
+                    display: block; margin: 0 auto; max-width: 40%; altura máxima: 40%
+                }
+
+                article.proyectos ul li.sietemejores a img {
+                    max-width: 40%
+                }
+
+                article.proyectos .divimgproyects {
+                    display: table-cell; vertical-align: middle; text-align: center; posición: relativa; índice z: 2
+                }
+
+                artículo.proyectos ul li a .fa-chevron-circle-right {
+                    font-size: 40px; color: #fff; margin-top: 30px; display: none
+                }
+
+                .button, article.proyectos ul li: coloque el cursor sobre un .fa-chevron-circle-right {
+                    display: inline-block
+                }
+
+                .carsierranevada {
+                    background: url (../ img / proyectos / web / CARSIERRANEVADA / cabecera.png) no-repeat
+                }
+
+                . queaventura {
+                    background: url (../ img / proyectos / web / QUEAVENTURA / cabecera.jpg) no-repeat
+                }
+
+                .introiberica {
+                    background: url (../ img / proyectos / web / INTROIBERICA / cabecera.jpg) no-repeat
+                }
+
+                .clinicahidalgo {
+                    background: url (../ img / proyectos / web / CLINICA_HIDALGO / cabecera.jpg) no-repeat
+                }
+
+                .academiamultilingua {
+                    background: url (../ img / proyectos / web / ACADEMIA_MULTILINGUA / cabecera.jpg) no-repeat
+                }
+
+                .abbogados {
+                    background: url (../ img / proyectos / web / ABBOGADOS / cabecera.jpg) no-repeat
+                }
+
+                .sietemejores {
+                    background: url (../ img / proyectos / web / 7_MEJORES / cabecera.jpg) no-repeat
+                }
+
+                .barcelo {
+                    background: url (../ img / proyectos / web / BARCELO / cabecera.jpg) no-repeat
+                }
+
+                .cajagranada {
+                    background: url (../ img / proyectos / web / CAJA_GRANADA / cabecera.jpg) no-repeat
+                }
+
+                .english-house {
+                    background: url (../ img / proyectos / web / ENGLISH_HOUSE / cabecera.jpg) no-repeat
+                }
+
+                .etoke {
+                    background: url (../ img / proyectos / web / ETOKE / cabecera.jpg) no-repeat
+                }
+
+                .gourmet {
+                    background: url (. ./img/proyectos/web/GOURMET/cabecera.jpg) no-repeat
+                }
+
+                .granada-sabores {
+                    background: url (../ img / proyectos / web / GRANADA_SABORES / cabecera.jpg) no-repeat
+                }
+
+                .iniciativas-musicales {
+                    background: url (../ img / proyectos / web / INICIATIVAS_MUSICALES / cabecera.jpg) no-repeat
+                }
+
+                .maconta {
+                    background: url (../ img / proyectos / web / MACONTA / cabecera.jpg) no-repeat
+                }
+
+                .padel-week {
+                    background: url (../ img / proyectos / web / PADEL_WEEK / cabecera.jpg) no-repeat
+                }
+
+                .superniquis {
+                    background: url (../ img / proyectos / web / SUPERNIQUIS / cabecera.jpg) no-repeat
+                }
+
+                .maruja {
+                    background: url (. ./img/proyectos/web/TIENDA_MARUJA/cabecera.jpg) no-repeat
+                }
+
+                .urban {
+                    background: url (../ img / proyectos / web / URBAN / cabecera.jpg) no-repeat
+                }
+
+                .veterinaria {
+                    background: url (../img/proyectos/movil/CONGRESO_VETERINARIA/cabecera.jpg) no-repeat
+                }
+
+                .copicloud {
+                    background: url (../ img / proyectos / movil / COPICLOUD / cabecera.jpg) no-repeat
+                }
+
+                .dipgra {
+                    background : url (../img/proyectos/movil/DIPUTACION_GRANADA/cabecera.jpg) no-repeat
+                }
+
+                .gd {
+                    background: url (../ img / proyectos / movil / GRANADA_DIGITAL / cabecera.jpg) no-repeat
+                }
+
+                .pcg {
+                    background: url (../img/proyectos/movil/PALACIO_CONGRESOS/cabecera.jpg) no-repeat
+                }
+
+                .siscapp {
+                    background: url (../ img / proyectos / movil / SISCAPP / cabecera.jpg) no-repeat
+                }
+
+                .lexsubasta {
+                    background: url (../ img / proyectos / web / LEX_SUBASTA / cabecera.jpg) no-repeat
+                }
+
+                article.proyectos ul li: hover a: before {
+                    opacity: .8; transición: all .3s; cursor: puntero; fondo: - moz-linear-gradient (-30deg, rgba (0, 164, 200, 1) 47%, rgba (0, 164, 200, .79) 58%, rgba (255, 255, 255, 0) 100%); fondo: -webkit-gradiente (lineal, arriba a la izquierda, abajo a la derecha, color-stop (47%, rgba (0, 164, 200, 1)), color-stop (58%, rgba (0, 164, 200, .79)), color-stop (100%, rgba (255, 255, 255, 0))); fondo: -webkit-linear-gradient (-30deg, rgba (0, 164, 200, 1) 47%, rgba (0, 164, 200, .79) 58%, rgba (255, 255, 255, 0) 100%); fondo: -o-lineal-gradiente (-30deg, rgba (0, 164, 200, 1) 47%, rgba (0, 164, 200, .79) 58%, rgba (255, 255, 255, 0) 100%); fondo: - ms-linear-gradient (-30deg, rgba (0, 164, 200, 1) 47%, rgba (0, 164, 200, .79) 58%, rgba (255, 255, 255, 0) 100%); fondo: gradiente lineal (135deg, rgba (0, 164, 200, 1) 47%, rgba (0, 164, 200, .79) 58%, rgba (255, 255, 255, 0) 100%); filtro: progid: DXImageTransform.Microsoft.gradient (startColorstr='# 00a4c8', endColorstr='# 00ffffff', GradientType=1)
+                }
+
+                article.tuproyecto {
+                    background-color: # d9d9d9; position: relative; padding-bottom: 80px
+                }
+
+                article.tuproyecto .button, article.tuproyecto h2, article.tuproyecto h3 {
+                    text-align: center
+                }
+
+                article.tuproyecto h2 {
+                    font-size: 40px; font-weight: 100; margin: 0; padding-top: 7%; line-height: 10px
+                }
+
+                article.tuproyecto h3 {
+                    color: # 00a4c8; font-size: 62px; font-weight : 100; margen: 0 0 20px
+                }
+
+                .button {
+                    ancho: 418px; altura: 100px; relleno:20px; color: #fff; cursor: puntero
+                }
+
+                .language-en_US .button {
+                    height: auto
+                }
+
+                .contenedorbuttons {
+                    display: table; margin: 0 auto; padding-bottom: 50px
+                }
+
+                article.tuproyecto .button-contacto {
+                    background: url (../ img / INDEX_BOTON_CONTACTO.png) no-repeat; margin-right: 65px; height: 154px
+                }
+
+                article.tuproyecto .button-presupuesto {
+                    background: url (../ img / INDEX_BOTON_PRESUPUESTO.png) no-repeat; altura: 154px
+                }
+
+                article.tuproyecto .button-contacto: hover {
+                    background: url (../ img / INDEX_BOTON_CONTACTO.png) 0 -194px no-repeat
+                }
+
+                article.tuproyecto .button-presupuesto: hover {
+                    background: url (.. /img/INDEX_BOTON_PRESUPUESTO.png) 0 -194px no-repeat
+                }
+
+                @media (max-width: 800px) {
+                    article.tuproyecto .button-presupuesto {
+                        color: #fff
+                    }
+                }
+
+                . button i, .button span.fa {
+                    display: block; float: left; width: 25%; text-align: right
+                }
+
+                article # direccion li, article # direccion li div {
+                    text-align: left; display: inline-block; margin: 0 auto
+                }
+
+                article.tuproyecto .button i.fa-angle-right, artículo.tuproyecto .button span.fa-angle-right {
+                    ancho: 22%; margin-top: 19%
+                }
+
+                . button i.fa-angle-right, .button span. fa-angle-right {
+                    margin-top: 25%
+                }
+
+                . button p {
+                    display: block; float: left; width: 45%; margin: 0 0 0 5%; text-align: left; color: #fff; line -altura: 15px; tamaño de fuente: 14px
+                }
+
+                artículo.tuproyecto .button p {
+                    tamaño de fuente: 16px; ancho: 45%; altura de línea: 20px; margen superior: 17px
+                }
+
+                .button p span, .button p fuerte {
+                    display: block; color: #fff; font-size: 27px; font-weight: 300; line-height: 41px
+                }
+
+                .button.active p strong {
+                    color: # 00a4c8
+                }
+
+                article.tuproyecto .button p span, article. tuproyecto .button-contacto p strong, article.tuproyecto .button-presupuesto p strong {
+                    font-size: 40px; margin-bottom: 8px
+                }
+
+                article # direccion {
+                    background-color: # d9d9d9; margin: 0 auto; text-align: center
+                }
+
+                article # direccion ul {
+                    border-top: 1px solid # bcbdc0; list-style: none; width: 100%; padding: 12px 0; margin-top: 0; margin-bottom: 0; text-align: center
+                }
+
+                article # direccion li {
+                    padding: 10px; width: 350px
+                }
+
+                article # direccion .iconmap {
+                    border-radius: 50%; background-color: # a7a9ac; ancho: 70px; altura: 60px; relleno: 5px 0; alineación vertical: centro; pantalla: bloque en línea; margen superior: -95px
+                }
+
+                artículo # direccion .iconmap i, artículo # direccion .iconmap span {
+                    display: block; text-align: center; color: #dcddde
+                }
+
+                article # direccion .infomap span {
+                    display: block; color: # 67696c; font-weight: 200; font-size: 15px; margin-left: 10px
+                }
+
+                article # direccion. infomap span span, artículo # direccion .infomap span strong {
+                    color: # 000; font-weight: 300
+                }
+
+                article # direccion .infomap span a {
+                    color: # 00a4c8; text-decoration: none; vertical-align: top
+                }
+
+                article # direccion .infomap span ai {
+                    font-size: 20px; font-weight: 200
+                }
+
+                article # direccion .infomap span i {
+                    font-size: 5px; bottom: 3px; display: inline-block; position: relative; margin: 3px
+                }
+
+                .sombra.triangulo {
+                    bottom: 0; position: absolute
+                }
+
+                article # direccion .infomap span: first-of-type {
+                    font-size: 18px
+                }
+
+                article.empresa {
+                    min-height: 93%; height: 93%; background: url (data : image / svg + xml; base64, PD94bWwgdmVyc2lvbj0iMS4wIiA / Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI + + CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMDciLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8 + Cjwvc3ZnPg==); fondo:-moz-linear-gradient (-51.3deg, rgba (0, 0, 0, .07) 0, rgba (0, 0, 0, .3) 100%); fondo: -webkit-gradient (lineal, arriba a la izquierda, abajo a la derecha, color-stop (0, rgba (0, 0, 0, .07)), color-stop (100%, rgba (0, 0, 0, .3))); fondo: -webkit-linear -gradiente (-51.3deg, rgba (0, 0, 0, .07) 0, rgba (0, 0, 0, .3) 100%); fondo: -o-lineal-gradiente (-51.3deg, rgba (0, 0, 0, .07) 0, rgba (0, 0, 0, .3) 100%); fondo: -ms-linear-gradient (-51.3deg, rgba (0, 0, 0, .07) 0, rgba (0, 0, 0, .3) 100%); fondo: gradiente lineal (128.7deg, rgba (0, 0, 0, .07) 0, rgba (0, 0, 0, .3) 100%); filtro: progid: DXImageTransform.Microsoft.gradient (startColorstr='# 12000000', endColorstr='# 4d000000', GradientType=1)
+                }
+
+                article.empresa> div {
+                    background: url (../ img / FONDO_EMPRESA. jpg) centrar sin repetición; tamaño de fondo: cubierta; altura mínima: 700px; altura: 100%; color: # 00a4c8; relleno inferior: 35px
+                }
+
+                article.empresa> div> div {
+                    display: block; ancho: 35 %; flotante: derecha; margen-derecha: 4%; tamaño de fuente: 20px; color de fondo: rgba (255, 255, 255, .8); relleno: 75px 100px; borde-radio: 150px; margen-superior: 27px
+                }
+
+                article.empresa> div> div h2 {
+                    font-size: 34px; line-height: 38px; font-weight: 200
+                }
+
+                article.empresa> div> div p {
+                    font-size: 18px; line-height: 25px; font-weight: 200
+                }
+
+                article.empresa .flechaabajo {
+                    margin-top: 25%
+                }
+
+                article.clientes {
+                    min-height: 93%; height: 93%
+                }
+
+                article.clientes> div {
+                    min-height: 325px; height: 50%; color: #fff
+                }
+
+                article.clientes> div: first-child {
+                    background-color: # 58585a; position: relative; border-bottom: 1px solid # 8a8c8f
+                }
+
+                article.clientes> div: last-child {
+                    background-color: # 77787b; text- align: center
+                }
+
+                article.clientes> div: first-child .slider {
+                    min-height: 160px; position: absolute; bottom: 0; width: 100%
+                }
+
+                article.clientes> div: first-child .contentlist {
+                    display: inline -bloque; ancho: 80%; desbordamiento: oculto; alineación vertical:bottom
+                }
+
+                article.clientes> div h2, article.clientes> div: first-child ul {
+                    list-style: none; padding: 0; margin: 0
+                }
+
+                article.clientes> div: first-child ul {
+                    font-size: 0; altura máxima: 160px; ancho: 200%; pantalla: bloque en línea; alineación vertical: abajo; margen-izquierda: -16.45%; fondo: url (datos: imagen / svg + xml; base64, PD94bWwgdmVyc2lvbj0iMS4wIiA / Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI + CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU5NTk1YiIgc3RvcC1vcGFjaXR5PSIxIi8 + CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2NzY3NjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ + CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc +); fondo: -moz-lineal-gradiente (superior, RGBA (89, 89, 91, 1) 0, RGBA (103, 103, 105, 1) 100%); fondo: -webkit-gradiente (lineal, arriba a la izquierda, l-moz-linear-gradient (arriba, rgba (89, 89, 91, 1) 0, rgba (103, 103, 105, 1) 100%); fondo: -webkit-gradient (lineal, arriba a la izquierda, l-moz-linear-gradient (arriba, rgba (89, 89, 91, 1) 0, rgba (103, 103, 105, 1) 100%); fondo: -webkit-gradient (lineal, arriba a la izquierda, left bottom, color-stop (0, rgba (89, 89, 91, 1)), color-stop (100%, rgba (103, 103, 105, 1))); fondo: -webkit-linear-gradient (arriba, rgba (89, 89, 91, 1) 0, rgba (103, 103, 105, 1) 100%); fondo: -o-lineal-gradiente (superior, rgba (89, 89, 91, 1) 0, rgba (103, 103, 105, 1) 100 %); fondo: gradiente lineal -ms (arriba, rgba (89, 89, 91, 1) 0, rgba (103, 103, 105, 1) 100%); fondo: gradiente lineal (abajo, rgba (89, 89, 91, 1) 0, rgba (103, 103, 105, 1) 100%); filtro: progid: DXImageTransform.Microsoft.gradient (startColorstr='# 59595b', endColorstr='# 676769', GradientType=0)
+                        }
+
+                        article.clientes> div: first-child h2 {
+                            font-size: 55px; font-weight: 100; padding: 30px 0; text-align: center; margin: 0
+                        }
+
+                        article.clientes> div: first-child .slider> .fa, article .clientes> div: first-child li {
+                            display: inline-block; width: 8.2%; margin-right: .1%; font-size: 50px; vertical-align: top; cursor: pointer; background-color:# 58585a; min-height: 160px; line-height: 160px
+                        }
+
+                        article.clientes> div: first-child li a {
+                            display: table; margin: 0 auto; height: 160px
+                        }
+
+                        article.clientes> div: first-child li a> div {
+                            display: table-cell; vertical-align: middle
+                        }
+
+                        article.clientes> div: first-child li img {
+                            opacity: .4
+                        }
+
+                        article.clientes> div: first-child li img.activa, article.clientes > div: first-child li: hover img {
+                            opacity: 1
+                        }
+
+                        article.clientes> div: first-child li.activa, article.clientes> div: first-child li: hover {
+                            background: url (data: image / svg + xml; base64, PD94bWwgdmVyc2lvbj0iMS4wIiA / Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI + CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU4NTg1YSIgc3RvcC1vcGFjaXR5PSIxIi8 + CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MTQxNDIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ + CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc +); fondo: -moz-lineal-gradiente (superior, RGBA (88, 88, 90, 1) 0, RGBA (65, 65, 66, 1) 100%); fondo: -webkit-gradient (lineal, superior izquierda, inferior izquierda, color-stop (0, rgba (88, 88, 90, 1)), color-stop (100%, rgba (65, 65, 66, 1))); antecedentes:-webkit-linear-gradient (top, rgba (88, 88, 90, 1) 0, rgba (65, 65, 66, 1) 100%); fondo: -o-linear-gradient (top, rgba (88, 88, 90, 1) 0, rgba (65, 65, 66, 1) 100%); fondo: -ms-linear-gradient (top, rgba (88, 88, 90, 1) 0, rgba (65, 65, 66, 1) 100%); fondo: gradiente lineal (hacia abajo, rgba (88, 88, 90, 1) 0, rgba (65, 65, 66, 1) 100%); filtro: progid: DXImageTransform. Microsoft.gradient (startColorstr='# 58585a', endColorstr='# 414142', GradientType=0)
+                        }
+
+                        article.clientes> div: first-child .slider> .fa {
+                            display: inline-block; width: 9%; text -align: center; cursor: pointer; vertical-align: bottom
+                        }
+
+                        article.clientes> div .contentdescription .fa-quote-right, footer> section {
+                            vertical-align: top
+                        }
+
+                        article.clientes> div: first-child .slider > .fa: hover {
+                            color: # 00a4c8
+                        }
+
+                        article.clientes> div: primer hijo .oculto {
+                            ancho: 0
+                        }
+
+                        .triangulo {
+                            ancho: 0; altura: 0; borde-izquierda: 15px sólido transparente; borde-derecha: 15px sólido transparente; borde inferior: 15px sólido # 77787b; margen inferior: -1px; margen-izquierda: 15%
+                        }
+
+                        . sombra {
+                            altura: 10px; ancho: 100%; fondo: url (datos: imagen / svg + xml; base64, PD94bWwgdmVyc2lvbj0iMS4wIiA / Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI + CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8 + CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4xNSIvPgogIDwvbGluZWFyR3JhZGllbnQ + CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc +); fondo: -moz-lineal-gradiente (superior, RGBA (0, 0, 0, 0) 0, rgba (0, 0, 0, .15) 100%); fondo: -webkit-gradient (lineal, superior izquierda, inferior izquierda, color-stop (0, rgba (0, 0, 0, 0)), color-stop (100%, rgba (0, 0, 0, .15))); fondo: -webkit-linear-gradient (arriba, rgba (0, 0, 0, 0) 0, rgba (0, 0, 0, .15) 100%); fondo: -o-lineal-gradiente (arriba, rgba (0, 0, 0, 0) 0, rgba (0, 0, 0, .15) 100%); fondo: gradiente lineal -ms (arriba, rgba (0, 0, 0, 0) 0, rgba (0, 0, 0, .15) 100%); fondo: gradiente lineal (hacia abajo, rgba (0, 0, 0, 0) 0, rgba (0, 0, 0, .15) 100%); filtro: progid: DXImageTransform.Microsoft.gradient (startColorstr='# 00000000', endColorstr='# 26000000', GradientType=0)
+                        }
+
+                        article.clientes> div .contentdescription {
+                            posición: absoluta; inferior: 0; izquierda: 0; ancho: 100%; margen inferior: -50vh ! Importante; altura: 50vh; pantalla: ninguna; tamaño de fuente: medio; cursor: inicial; altura de línea: normal
+                        }
+
+                        article.clientes> div .visible {
+                            display: block
+                        }
+
+                        article.clientes> div.contentdescription span.descripcion {
+                            display: block; margin: 4vh auto 0; text-align: center; width: 650px; font-weight: 200; font-size: 17px; color: #fff
+                        }
+
+                        article.clientes> div .contentdescription p {
+                            text-align: center
+                        }
+
+                        article.clientes> div .contentdescription span.nombre {
+                            font-weight: 400; color: #fff
+                        }
+
+                        article.clientes> div .contentdescription p span: not (.nombre): not (.titulo) {
+                            font-weight: 600
+                        }
+
+                        article.clientes> div .contentdescription .fa, article.clientes> div .contentdescription span.titulo {
+                            color: # B3B5BA
+                        }
+
+                        article.clientesmobile {
+                            display: none; background-color: # 58585a; padding: 15px; color: #fff
+                        }
+
+                        article.clientesmobile h2, article.clientesmobile ul {
+                            margin: 0; list-style: none; padding: 0
+                        }
+
+                        article.clientesmobile h2 {
+                            font-size: 35px; font-weight: 100; text- align: center
+                        }
+
+                        .comillas-left, .comillas-right {
+                            font-family: Arial; font-size: 147px; color: # A3A3A3; font-style: normal; position:relativo
+                        }
+
+                        article.clientesmobile li> a> div {
+                            text-align: center; margin-top: 25px
+                        }
+
+                        article.clientesmobile .contentdescription {
+                            margin: 20px 0; text-align: center
+                        }
+
+                        .comillas-left {
+                            line-height: 30px; top: 73px
+                        }
+
+                        .comillas-right {
+                            line-height: 0; top: 85px; margin-top: -27px; display: inline-block; letter-spacing: -45px
+                        }
+
+                        footer {
+                            font-size: 0; display: tabla; ancho: 100%
+                        }
+
+                        pie de página> sección {
+                            ancho: 25%; - webkit-box-shadow: recuadro -1px 0 0 0 rgba (99, 100, 102, 1); - moz-box-shadow: recuadro -1px 0 0 0 rgba (99, 100, 102, 1); box-shadow: recuadro -1px 0 0 0 rgba (99, 100, 102, 1); relleno: 52px 4.9%; color: # a7a9ac; tamaño de caja: border-box; display: inline-block; font- tamaño: inicial; peso de fuente: 300; altura de línea: 18px; altura mínima: 440px
+                        }
+
+                        pie de página> sección: después de {
+                            visibilidad: oculta; pantalla: bloque; tamaño de fuente: 0; contenido: ""; claro: ambos; height: 0
+                        }
+
+                        footer> section.last-last, footer> section.redsocial> div:last-child {
+                            -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none
+                        }
+
+                        footer> section.redsocial {
+                            background-color: # 4d4d4f; padding: 5px 0
+                        }
+
+                        footer> section. redsocial # timeline-twitter, footer> section.redsocial .feedburnerFeedBlock {
+                            font-size: 13px; color: #aaa
+                        }
+
+                        footer> section.redsocial> div {
+                            -webkit-box-shadow: inset 0 -1px 0 0 rgba (99, 100, 102, 1); - moz-box-shadow: recuadro 0 -1px 0 0 rgba (99, 100, 102, 1); box-shadow: recuadro 0 -1px 0 0 rgba (99, 100, 102, 1); relleno: 20px 15%; color: #fff
+                        }
+
+                        pie de página> section.software {
+                            background-color: # 102b3a; tamaño de fuente: 13px
+                        }
+
+                        footer> section.software h2 {
+                            margin-bottom: 16px; max-height: 94px
+                        }
+
+                        footer> section.redsocial h2 {
+                            background-color: # 808285; relleno: 10px; radio del borde: 3px; color: #fff; peso de la fuente: 200; tamaño de fuente: 17px
+                        }
+
+                        pie de página> sección.redsocial h2 i, pie de página> sección.redsocial h2 fuerte {
+                            tamaño de fuente: 29px; margen: 3px 9px 3px 3px
+                        }
+
+                        pie de página>section.redsocial a {
+                            color: #fff
+                        }
+
+                        footer> section.redsocial ai, footer> section.redsocial a strong {
+                            color: #aaa; font-size: 25px
+                        }
+
+                        footer> section.redsocial a: hover i, footer> section. redsocial a: hover strong {
+                            color: #fff
+                        }
+
+                        footer> section.redsocial img {
+                            vertical-align: middle; margin: 3px 9px 2px 3px; height: 24px
+                        }
+
+                        footer> section.software a {
+                            color: # 00a4c8
+                        }
+
+                        footer> section .software a: hover {
+                            color: #fff
+                        }
+
+                        footer> section.software ai, footer> section.software a strong {
+                            font-size: 25px
+                        }
+
+                        footer> nav {
+                            background-color: # 00a4c8; width: 100%; clear: ambos; min-height: 75px; font-size: initial
+                        }
+
+                        footer> nav ul {
+                            list-style: none; min-height: 75px; float: left; min-width: 20%; padding: 0; margin: 0
+                        }
+
+                        pie de página> nav ul: primer hijo {
+                            ancho: 80%
+                        }
+
+                        pie de página> nav ul: primer hijo li {
+                            display: bloque en línea; altura de línea: 75px; margen izquierdo: 30px
+                        }
+
+                        pie de página> nav ul: primer hijo li: primer hijo {
+                            relleno-izquierda:40px
+                        }
+
+                        pie de página> nav li a {
+                            color: rgba (255, 255, 255, .6); peso de fuente: 300
+                        }
+
+                        pie de página> nav li a: hover {
+                            color: #fff
+                        }
+
+                        .logopie {
+                            ancho: 100%; relleno: 0; texto -align: right; vertical-align: top; margin: 21px -50px
+                        }
+
+                        footer # twitter-widget-0 {
+                            padding-bottom: 15px
+                        }
+
+                        footer # timeline-twitter p {
+                            height: 70px; overflow: hidden; margin: 10px 0 0
+                        }
+
+                        @media (max-width: 767px) {
+                            footer # timeline-twitter p {
+                                font-size: 14px
+                            }
+                        }
+
+                        . FeedburnerFeedBlock ul {
+                            list-style: none; padding: 0
+                        }
+
+                        .feedburnerFeedBlock #creditfooter {
+                            display: none
+                        }
+
+                        . feedburnerFeedBlock .date {
+                            color: # 808285; margin-top: 0; font-size: .8em
+                        }
+
+                        @media (max-width: 1441px) {
+                            div # home> header> nav> ul> li {
+                                margin-top: 70vh
+                            }
+
+                            pie de página> sección {
+                                min-height: 465px
+                            }
+                        }
+
+                        @ media (max-width: 1280px) {
+                            div # home> header> nav> div {
+                                margin-bottom: 35%
+                            }
+
+                            div # home> header> nav> ul> li {
+                                margin-top: 66vh
+                            }
+
+                            article.empresa> div> div {
+                                width: 52%; margin-left: 11%; font-size:1em
+                            }
+
+                            article.clientes> div .contentdescription {
+                                margin-bottom: -20%
+                            }
+
+                            article.clientes> div: first-child li img {
+                                display: block; width: 90%; margin: 0 auto
+                            }
+
+                            footer> section {
+                                min- height: 500px
+                            }
+
+                            footer> section.redsocial: first-child {
+                                padding-top: 20px
+                            }
+                        }
+
+                        @ media (min-width: 1024px) {
+                            article.clientes> div: first-child h2 {
+                                line-height: 20vh
+                            }
+                        }
+
+                        @ media (ancho máximo: 1024 px) {
+                            . svg .animation {
+                                ancho: 125%; altura: automático; izquierda: -12%; posición: relativa
+                            }
+
+                            .ie.svg .animation {
+                                izquierda: 0
+                            }
+
+                            .aboutuslogo {
+                                background-size : 60%
+                            }
+
+                            article.aboutus> div> div: last-child {
+                                padding-right: 10%
+                            }
+
+                            div # home> header> nav> ul> li {
+                                margin-top: 75vh
+                            }
+
+                            article.proyectos ul li {
+                                width: 50 %; min-height: 31.1vh; height: 31.1%
+                            }
+
+                            section.redsocial {
+                                width: 100%
+                            }
+
+                            footer> section {
+                                display: inline-block; width: 33.3333%; min-height: 480px
+                            }
+
+                            footer> section.redsocial {
+                                min-height: 350px
+                            }
+
+                            article.tuproyecto ul {
+                                margin-top: 4%
+                            }
+
+                            article.clientes> div.contentdescription {
+                                margin-bottom: -28%
+                            }
+                        }
+
+                        @ media (max-width: 990px) {
+                            article.tuproyecto .button {
+                                margin: 0 auto 17px; display: block
+                            }
+
+                            article.empresa> div {
+                                background-position-x: 31 %
+                            }
+                        }
+
+                        @ media (ancho máximo: 900 px) {
+                            div # home> encabezado> nav> div {
+                                margin-bottom: 40%
+                            }
+
+                            article.aboutus> div> div> h2 {
+                                font-size: 37px
+                            }
+
+                            #robot {
+                                display : none
+                            }
+
+                            article.clientes> div {
+                                min-height: 35%; min-height: 300px; height: 35%
+                            }
+
+                            article.clientes {
+                                min-height: initial; height: initial
+                            }
+
+                            article.tuproyecto h2 {
+                                font-size: 30px; padding-top: 10%
+                            }
+
+                            article.tuproyecto h3 {
+                                font-size: 52px; margin-bottom: 40px
+                            }
+                        }
+
+                        @ media (max-width: 846px) {
+                            div # home> header> nav> div h2 {
+                                font- tamaño: 78 px; peso de fuente: 200; altura de línea: 40 px
+                            }
+
+                            div # inicio> encabezado> nav> div p {
+                                altura de línea: 16 px; tamaño de fuente: 26 px; peso de fuente: 200
+                            }
+                        }
+
+                        @ media (máx. -width: 767px) {
+                            article.aboutus, article.empresa {
+                                min-height: initial
+                            }
+
+                            article.tuproyecto .button {
+                                margin:0 auto 17px; display: block; height: 115px
+                            }
+
+                            div # home header.not-line {
+                                height: 50vh; position: relative
+                            }
+
+                            div # home> header: not (.not-line)> nav.navLineas {
+                                height: 100px
+                            }
+
+                            div # home> encabezado> nav> ul> li {
+                                margin-top: 0
+                            }
+
+                            div # home> header> nav> div h2 {
+                                font-size: 46px; font-weight: 200; line-height: 40px
+                            }
+
+                            div # inicio> encabezado> nav> div p {
+                                line-height: 16px; font-size: 16px; font-weight: 200
+                            }
+
+                            div # home> header> nav a {
+                                width: 47px; height: 47px; background-size: 60px
+                            }
+
+                            article.aboutus, article.empresa, article.proyectos, article.tuproyecto {
+                                height: auto
+                            }
+
+                            div # home> header> nav> ul> li a {
+                                border-width: 3px
+                            }
+
+                            div # home> header> nav> ul> li a.lineaon, div # home> encabezado> nav> ul> li a: hover, div # home> encabezado> nav> ul> li.active a {
+                                border: 3px solid #fff
+                            }
+
+                            div # home .link-social {
+                                margin -top: -60px; arriba: heredar; abajo: 0; izquierda: 50%; margen-izquierda: -146px; posición: absoluta; z-index: 1
+                            }
+
+                            div # home .link-social a {
+                                float: left
+                            }
+
+                            div # home .link-social a + a {
+                                border-top: 0; border-left: 1px solid
+                            }
+
+                            article.proyectos ul li {
+                                width : 100%; margen: 0; borde: 0; borde superior: 1px sólido #fff
+                            }
+
+                            article.empresa> div {
+                                background: #fff; height: auto; min-height: initial
+                            }
+
+                            article.empresa> div> div {
+                                flotante: ninguno; tamaño de caja: caja de borde; relleno: 5%; radio de borde: 5px; ancho: 75%
+                            }
+
+                            article.empresa> div> div h2 {
+                                font-size: 17px; line-height: 20px
+                            }
+
+                            artículo .clientes {
+                                display: none
+                            }
+
+                            article.clientesmobile .contentdescription {
+                                margin: -30px 0 0
+                            }
+
+                            article.clientesmobile li: nth-child (2) {
+                                margin-top: 75px
+                            }
+
+                            article.clientesmobile {
+                                display: block
+                            }
+
+                            #menuprincipal, . botón i.fa-angle-right, article.aboutus> div> div.aboutuslogo, article.tuproyecto .iconmap {
+                                display: none
+                            }
+
+                            article.aboutus> div> div {
+                                padding: 5% 10%
+                            }
+
+                            article.tuproyecto li {
+                                width : auto; text-align: center
+                            }
+
+                            article.tuproyecto h2 {
+                                font-size: 25px; padding-left: 10px; padding-right: 10px; line-height: 25px
+                            }
+
+                            article.tuproyecto h3 {
+                                font-size: 35px; ppadding-left: 10px; padding-right: 10px; line-height: 35px
+                            }
+
+                            .button {
+                                ancho: 230 px; altura: 30 px; relleno: 10 px; radio del borde: 4 px
+                            }
+
+                            artículo.tuproyecto .button p {
+                                font-size: 0; altura de línea: heredar; margin-top: heredar
+                            }
+
+                            .button p span, .button p fuerte {
+                                altura-línea: heredar
+                            }
+
+                            article.tuproyecto .button i.fa-angle-right, article.tuproyecto .button span.fa-angle-right {
+                                margin-top: 0
+                            }
+
+                            .button i, .button span {
+                                font -tamaño: 30px; ancho: 25%; alineación de texto: centro; margen superior: 17%
+                            }
+
+                            article.tuproyecto .button p strong {
+                                tamaño-fuente: 22px; margen superior: 35%
+                            }
+
+                            . navmobile {
+                                display: block; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; font-size: 0
+                            }
+
+                            div # home header: not (.not-line) .not-shadow :: before {
+                                content: ""; position: absolute; height: 14px; width: 100%; display: block; background: -moz-linear-gradient (top, rgba (0, 0, 0, .3) 0, rgba (0, 0, 0, 0) 100%); fondo: -webkit-linear-gradient (top, rgba (0, 0, 0, .3) 0, rgba (0, 0, 0, 0) 100%); fondo: gradiente lineal (hacia abajo, rgba (0, 0, 0, .3) 0, rgba (0, 0, 0, 0) 100%); filtro: progid : DXImageTransform.Microsoft.gradient (startColorstr='# 4d000000', endColorstr='# 00000000', GradientType=0)
+                            }
+
+                            div # home {
+                                padding-top: 50px
+                            }
+
+                            .navLineas ul li a.lineaon + span, .navLineas ul li, : hover span {
+                                min-width: 50px
+                            }
+
+                            div # home> header> nav {
+                                overflow-y: hidden; height: 69px
+                            }
+
+                            div # home> header> nav.navLineas> ul> li {
+                                margin-left: 2px; margin- derecha: 2px
+                            }
+
+                            div # home> encabezado> nav.navLineas a {
+                                ancho: 50px; altura: 50px; tamaño de fondo: contener; relleno-top: 0; margen-superior: 0
+                            }
+
+                            pie de página> sección {
+                                ancho: 100%; -webkit-box-shadow: recuadro 0 -1px 0 0 rgba (99, 100, 102, 1); - moz-box-shadow: recuadro 0 -1px 0 0 rgba (99, 100, 102, 1); box-shadow: recuadro 0 -1px 0 0 rgba (99, 100, 102, 1); altura mínima:0
+                            }
+
+                            .flechaabajo {
+                                display: none ! Important
+                            }
+
+                            * {
+                                - webkit-font-smoothing: antialiased; -webkit-user-select: none; -moz-user-select: -moz-none; -ms-user-select: none; user-select: none
+                            }
+                        }
+
+                        @ media (max-width: 615px) {
+                            article.empresa> div> div {
+                                margin: auto; padding: 0; width: 85%
+                            }
+
+                            footer> nav {
+                                min-height: 135px
+                            }
+
+                            pie de página> nav ul {
+                                float: none
+                            }
+
+                            footer> nav ul: first-child {
+                                width: 100%; text-align: center
+                            }
+
+                            footer> nav ul: first-child li {
+                                line-height: 45px; display: block; margin -izquierda: 10px
+                            }
+
+                            pie de página> nav ul: first-child li: first-child {
+                                padding-left: 0
+                            }
+
+                            .logopie {
+                                margin: 20px auto 0; display: inline-block; text-align: center
+                            }
+
+                            footer .logopie img {
+                                ancho: 110px; ancho máximo: inicial
+                            }
+
+                            pie de página> section.redsocial> div {
+                                relleno: 20px 5%
+                            }
+                        }
+
+                        . sr-only {
+                            posición: absoluto; ancho: 1px; altura: 1px; relleno: 0; margen: - 1px; desbordamiento: oculto; clip: rect (0, 0, 0, 0); borde: 0
+                        }
+
+                        article.nosotros .conocenos_blue_area {
+                            ancho máximo: 1000px; margen:50px auto 60px
+                        }
+
+                        article.nosotros .conocenos_bg_img {
+                            background: url (../ img / conocenos_bg.png) abajo a la derecha sin repetir; relleno: 40px
+                        }
+
+                        article.nosotros .conocenos_bg_azul {
+                            background: rgba (189, 236, 247, .5); borde -radio: 7px
+                        }
+
+                        article.nosotros .conocenos_bg_azul .p1 {
+                            color: # 00a4c8; tamaño de fuente: 37px; peso de fuente: 100; altura de línea: 37px
+                        }
+
+                        article.nosotros .conocenos_bg_azul .p2 {
+                            color: # 00a4c8; fuente -tamaño: 25px; peso de fuente: 100; altura de línea: 29px; margen superior: 30px
+                        }
+
+                        article.nosotros .conocenos_bg_azul .p3 {
+                            color: # 00a4c8; tamaño de fuente: 30px; peso de fuente: 600; línea- altura: 50px
+                        }
+
+                        article.nosotros .mision_container {
+                            ancho máximo: 1000px; margen: 40px auto 0
+                        }
+
+                        article.nosotros .mision_content p {
+                            padding-right: 35px
+                        }
+
+                        article.nosotros p.entradilla {
+                            font-size: 18px; line- altura: 27 px; peso de fuente: 300; margen superior: 40 px
+                        }
+
+                        article.nosotros .nuestra_pasion {
+                            ancho máximo: 920 px; margen: 40 px automático 0; fondo: url (../ img / bg_blue.png) repeat-x; border-radius: 7px; padding: 60px 40px; text-align: center; background-size: contienen
+                        }
+
+                        article.nosotros .nuestra_pasion p.titulo {
+                            color: #fff; font-size: 40px; font -weight: 100; line-height: 28px; margin-bottom: 20px
+                        }
+
+                        article.nosotros .nuestra_pasion p.entradilla {
+                            color: #fff; font-size: 18px; font-weight: 100
+                        }
+
+                        article.nosotros .nuestra_pasion a. btn {
+                            font-weight: 300
+                        }
+
+                        @media (max-width: 1062px) {
+                            article.nosotros # link2 h2 {
+                                padding-left: 30px
+                            }
+                        }
+
+                        article.nosotros .equipo_somos_diferentes {
+                            background: # F1F1F2; text-align: center; padding -top: 10px; relleno inferior: 40px; margen superior: 40px; margen inferior: 80px
+                        }
+
+                        artículo.nosotros .equipo_somos_diferentes h3 {
+                            color: # 504f53; tamaño de fuente: 55.47px; peso de fuente: 100; línea- altura: 52px
+                        }
+
+                        article.nosotros .equipo_somos_diferentes p.entradilla {
+                            color: # 504f53; tamaño de fuente: 25px; peso de fuente: 100; altura de línea: 29px; alineación de texto: centro; margen inferior: 35px
+                        }
+
+                        artículo. nosotrosequipo_somos_diferentes .creatividad, article.nosotros .equipo_somos_diferentes .ingenieria, article.nosotros .equipo_somos_diferentes .innovacion {
+                            display: inline-block; vertical-align: middle; text-align: center
+                        }
+
+                        article.nosotros .equipo_somos_diferentes .circulo {
+                            display: block; display: block; margen: 0 auto 10px; ancho: 125px; altura: 125px; radio del borde: 50%; color: #fff; fondo: # ACADB0; tamaño de fuente: 40px; peso de fuente: 400; altura de línea: 125px; texto -alinear: centro; text-shadow: 0 0 6px #fff
+                        }
+
+                        article.nosotros .equipo_somos_diferentes .innovacion {
+                            color: # 00A2C6
+                        }
+
+                        article.nosotros .equipo_somos_diferentes .innovacion .circulo {
+                            fondo: # 00A2C6; color: #FFF
+                        }
+
+                        artículo. nosotros .equipo_somos_diferentes .signo_igual, article.nosotros .equipo_somos_diferentes .signo_suma {
+                            display: inline-block; width: 95px; height: 156px; color: # aeafb2; font-size: 40px; font-weight: 400; line-height: 125px; alineación de texto: centro; vertical-align: middle
+                        }
+
+                        article.nosotros .fortalezas_container {
+                            ancho máximo: 1000px; margen: 40px auto 0; fondo: url (../ img / fortalezas.png) centro no repetir; tamaño de fondo: contener
+                        }
+
+                        artículo. nosotros .fortalezas_content .more-size, article.nosotros .fortalezas_content .more-size span {
+                            margin-bottom: 0
+                        }
+
+                        article.nosotros .fortalezas_content p {
+                            padding-right: 35px
+                        }
+
+                        article.nosotros .fortalezas_content p.autor {
+                            color: # 00a4c8; tamaño de fuente: 23px; peso de fuente: 600; altura de línea: 39px
+                        }
+
+                        article.nosotros .fortalezas_content p.entradilla {
+                            tamaño de fuente: 18px; altura de línea: 27px; peso de fuente: 300
+                        }
+
+                        article.nosotros .equipo_fortaleza_container {
+                            margin-top: 90px; margin-bottom: 65px; padding-top: 120px; background: url (../ img / equipo_fortaleza.png) top center no-repeat
+                        }
+
+                        article.nosotros .equipo_fortaleza_container p.titulo {
+                            color : # 00a4c8; tamaño de fuente: 50px; peso de fuente: 100; altura de línea: 50px; alineación de texto:center
+                        }
+
+                        article.nosotros .equipo_fortaleza_container p.subtitulo {
+                            color: # 97979b; font-size: 32px; font-weight: 100; line-height: 39px; text-align: center
+                        }
+
+                        article.nosotros div.nos_diferencia {
+                            padding-left : 0; padding-right: 0
+                        }
+
+                        article.nosotros div.nos_diferencia h2 {
+                            margin-bottom: 40px
+                        }
+
+                        article.nosotros .formula_container {
+                            ancho máximo: 1000px; margen: 90px auto 65px; fondo: url (../ img / formula.png) center no-repeat
+                        }
+
+                        article.nosotros .formula_content {
+                            display: inline-block; width: 50%
+                        }
+
+                        article.nosotros .formula_content .more-size, article.nosotros .formula_content .more-size span {
+                            margin-bottom : 0
+                        }
+
+                        article.nosotros .formula_content p {
+                            padding-right: 35px
+                        }
+
+                        article.nosotros .formula_content p.titulo {
+                            color: # 1b1c20; font-size: 25px; font-weight: 600; line-height: 22px; text- alinear: izquierda
+                        }
+
+                        article.nosotros .formula_content p.autor {
+                            color: # 00a4c8; font-size: 23px; font-weight: 600; line-height: 39px
+                        }
+
+                        article.nosotros .formula_content p.entradilla {
+                            color: # 68686c; tamaño de fuente: 18px; peso de fuente: 300; altura de línea: 27px
+                        }
+
+                        article.nosotros .franja_objetivo {
+                            fondo: # F1F1F2; relleno superior: 70px; relleno inferior : 50px; margin-top: 85px
+                        }
+
+                        article.nosotros .franja_objetivo p.subtitulo, article.nosotros .franja_objetivo p.titulo {
+                            color: # 504f53; padding-top: 0; padding-bottom: 0; margin-top: 0; margen inferior: 0; alineación de texto: centro; peso de fuente: 100
+                        }
+
+                        article.nosotros .franja_objetivo p.titulo {
+                            tamaño de fuente: 43.33px; altura de línea: 43.33px
+                        }
+
+                        article.nosotros .franja_objetivo p.subtitulo {
+                            tamaño de fuente: 55.47px; altura de línea: 52px
+                        }
+
+                        article.nosotros .franja_objetivo .circulos_objetivo {
+                            text-align: center; margin-top: 20px
+                        }
+
+                        article.nosotros .franja_objetivo .circulos_objetivo .circulo_check {
+                            display: inline-block; height : 70px; ancho: 70px; tamaño de fuente: 35px; altura de línea: 70px; fondo: #FFF; borde: 2px sólido # 7ECFE1; radio del borde:50%
+                        }
+
+                        article.nosotros .asi_trabajamos {
+                            ancho máximo: 1000px; margen: 0 auto
+                        }
+
+                        article.nosotros .asi_trabajamos h2 {
+                            margen inferior: 40px
+                        }
+
+                        article.nosotros .asi_trabajamos .trabajamos {
+                            display: inline-block; vertical-align : arriba; ancho: 50%; flotante: izquierda; tamaño de la caja: borde-caja; relleno-derecha: 80px
+                        }
+
+                        article.nosotros .asi_trabajamos .innovacion {
+                            display: inline-block; vertical-align: top; ancho: 50%; relleno: 254px 80px 80px; fondo: url (../ img / ojo_innovacion.png) 65px 30px sin repetición #EBECED; tamaño de caja: border-box
+                        }
+
+                        .caja-pruebas {
+                            margen: 80px auto; ancho: 100%; ancho máximo: 980 px; desbordamiento: oculto
+                        }
+
+                        .impar.caja-angulo, .par .caja-angulo-borde, .par .caja-angulo-texto {
+                            -webkit-transform: skew (-30deg); - moz- transform: skew (-30deg); - ms-transform: skew (-30deg); - o-transform: skew (-30deg); transform: skew (-30deg)
+                        }
+
+                        . impar .caja-angulo-borde, .impar. caja-angulo-texto, .par.caja-angulo {
+                            -webkit-transform: skew (30deg); -moz-transform: skew (30deg); - ms-transform: skew (30deg); - o-transform: skew (30deg); transform: skew (30deg)
+                        }
+
+                        . caja-angulo {
+                            border-radius: 7px; border: 1px sólido # 269e92; margen: 0 5px 10px; flotante: izquierda; pantalla: flex; alinear elementos: centro; posición: relativa; altura: 100px; ancho: 24%
+                        }
+
+                        . Centro, .licontent span.center {
+                            text-align : center
+                        }
+
+                        .caja-angulo-borde {
+                            border-top: 1px solid # 269e92; border-bottom: 1px solid # 269e92; margin: -1px 0; width: 90%; height: 100%; position: absolute; top: 0; color de fondo: #FDFDFD; índice z: -1
+                        }
+
+                        .caja-angulo-derecha {
+                            border-right: 1px solid # 269e92; display: none; left: 25%; border-radius: 0 7px 7px 0
+                        }
+
+                        .caja-angulo-izquierda {
+                            border-left: 1px solid # 269e92; display: none; right: 25%; border-radius: 7px 0 0 7px
+                        }
+
+                        .caja-angulo-texto {
+                            display: block; ancho: 125%; alineación de texto: centro; margen izquierdo: 5%; color: # 269e92; tamaño de fuente: 18px; peso de fuente: 100; altura de línea: 25px
+                        }
+
+                        .caja-borde-izquierdo {
+                            margen-izquierda: 3.6667%
+                        }
+
+                        . Caja-borde-izquierdo .caja-angulo-texto {
+                            margen-izquierda: -15%
+                        }
+
+                        . Caja-borde-derecho, .caja-borde-izquierdo {
+                            ancho: 20%
+                        }
+
+                        . Caja-borde-derecho. caja-angulo-derecha, .caja-borde-izquierdo .caja-angulo-izquierda {
+                            display: block
+                        }
+
+                        @media (max-width: 920px) {
+                            . caja-angulo {
+                                width: 30%
+                            }
+
+                            . caja-borde-derecho, .caja-borde-izquierdo {
+                                ancho: 28%
+                            }
+
+                            . caja-borde-izquierdo {
+                                margen-izquierda: 5.333333%
+                            }
+                        }
+
+                        @ media (ancho máximo: 720px) {
+                            . caja-angulo-texto {
+                                tamaño-fuente: 16px
+                            }
+                        }
+
+                        @media (ancho máximo: 640 px) {
+                            . caja-angulo {
+                                ancho: 45%
+                            }
+
+                            . caja-borde-derecho, .caja-borde-izquierdo {
+                                ancho: 40%
+                            }
+
+                            . caja-borde-izquierdo {
+                                margen-izquierda : 8.6667%
+                            }
+                        }
+
+                        @ media (ancho máximo: 440px) {
+                            . Caja-angulo {
+                                ancho: 78%; margen izquierdo: 10.5%
+                            }
+                        }
+
+                        @ media (ancho máximo: 700px) y (ancho mínimo: 641px) {
+                            .caja-angulo {
+                                ancho: 27.5%
+                            }
+
+                            . caja-angulo-izquierda {
+                                derecha: 27%
+                            }
+
+                            . caja-angulo-derecha {
+                                izquierda: 27%
+                            }
+                        }
+
+                        / * !caja-borde-izquierdo {
+                            ancho: 20%
+                        }
+
+                        . caja-borde-derecho .caja-angulo-derecha, .caja-borde-izquierdo .caja-angulo-izquierda {
+                            display: block
+                        }
+
+                        @media (max-width: 920px) {
+                            .caja-angulo {
+                                ancho: 30%
+                            }
+
+                            . caja-borde-derecho, .caja-borde-izquierdo {
+                                ancho: 28%
+                            }
+
+                            . caja-borde-izquierdo {
+                                margen-izquierda: 5.333333%
+                            }
+                        }
+
+                        @ media (max- ancho: 720px) {
+                            . caja-angulo-texto {
+                                font-size: 16px
+                            }
+                        }
+
+                        @ media (max-width: 640px) {
+                            . caja-angulo {
+                                ancho: 45%
+                            }
+
+                            . caja-borde-derecho, .caja-borde -izquierdo {
+                                ancho: 40%
+                            }
+
+                            . caja-borde-izquierdo {
+                                margen-izquierda: 8.6667%
+                            }
+                        }
+
+                        @ media (ancho máximo: 440px) {
+                            . caja-angulo {
+                                ancho: 78%; margen-izquierda: 10.5%
+                            }
+                        }
+
+                        @media (ancho máximo: 700px) y (ancho mínimo: 641px) {
+                            . caja-angulo {
+                                ancho: 27.5%
+                            }
+
+                            . caja-angulo-izquierda {
+                                derecha: 27%
+                            }
+
+                            . caja-angulo-derecha {
+                                izquierda: 27%
+                            }
+                        }
+
+                        / * !caja-borde-izquierdo {
+                            ancho: 20%
+                        }
+
+                        . caja-borde-derecho .caja-angulo-derecha, .caja-borde-izquierdo .caja-angulo-izquierda {
+                            display: block
+                        }
+
+                        @media (max-width: 920px) {
+                            .caja-angulo {
+                                ancho: 30%
+                            }
+
+                            . caja-borde-derecho, .caja-borde-izquierdo {
+                                ancho: 28%
+                            }
+
+                            . caja-borde-izquierdo {
+                                margen-izquierda: 5.333333%
+                            }
+                        }
+
+                        @ media (max- ancho: 720px) {
+                            . caja-angulo-texto {
+                                font-size: 16px
+                            }
+                        }
+
+                        @ media (max-width: 640px) {
+                            . caja-angulo {
+                                ancho: 45%
+                            }
+
+                            . caja-borde-derecho, .caja-borde -izquierdo {
+                                ancho: 40%
+                            }
+
+                            . caja-borde-izquierdo {
+                                margen-izquierda: 8.6667%
+                            }
+                        }
+
+                        @ media (ancho máximo: 440px) {
+                            . caja-angulo {
+                                ancho: 78%; margen-izquierda: 10.5%
+                            }
+                        }
+
+                        @media (ancho máximo: 700px) y (ancho mínimo: 641px) {
+                            . caja-angulo {
+                                ancho: 27.5%
+                            }
+
+                            . caja-angulo-izquierda {
+                                derecha: 27%
+                            }
+
+                            . caja-angulo-derecha {
+                                izquierda: 27%
+                            }
+                        }
+
+                        / * !caja-borde-derecho, .caja-borde-izquierdo {
+                            ancho: 28%
+                        }
+
+                        . caja-borde-izquierdo {
+                            margen-izquierda: 5.333333%
+                        }
+                    }
+
+                    @ media (ancho máximo: 720px) {
+                        . caja-angulo-texto {
+                            tamaño de fuente: 16px
+                        }
+                    }
+
+                    @ media (ancho máximo: 640px) {
+                        . caja-angulo {
+                            ancho: 45%
+                        }
+
+                        . caja-borde-derecho, .caja-borde-izquierdo {
+                            ancho: 40%
+                        }
+
+                        . caja-borde -izquierdo {
+                            margin-left: 8.6667%
+                        }
+                    }
+
+                    @ media (max-width: 440px) {
+                        . caja-angulo {
+                            width: 78%; margin-left: 10.5%
+                        }
+                    }
+
+                    @ media (max-width: 700px) y (min-width: 641px) {
+                        . caja-angulo {
+                            width: 27.5%
+                        }
+
+                        . caja-angulo-izquierda {
+                            right: 27%
+                        }
+
+                        . caja-angulo-derecha {
+                            left: 27%
+                        }
+                    }
+
+                    / * !caja-borde-derecho, .caja-borde-izquierdo {
+                        ancho: 28%
+                    }
+
+                    . caja-borde-izquierdo {
+                        margen-izquierda: 5.333333%
+                    }
+                }
+
+                @ media (ancho máximo: 720px) {
+                    . caja-angulo-texto {
+                        tamaño de fuente: 16px
+                    }
+                }
+
+                @ media (ancho máximo: 640px) {
+                    . caja-angulo {
+                        ancho: 45%
+                    }
+
+                    . caja-borde-derecho, .caja-borde-izquierdo {
+                        ancho: 40%
+                    }
+
+                    . caja-borde -izquierdo {
+                        margin-left: 8.6667%
+                    }
+                }
+
+                @ media (max-width: 440px) {
+                    . caja-angulo {
+                        width: 78%; margin-left: 10.5%
+                    }
+                }
+
+                @ media (max-width: 700px) y (min-width: 641px) {
+                    . caja-angulo {
+                        width: 27.5%
+                    }
+
+                    . caja-angulo-izquierda {
+                        right: 27%
+                    }
+
+                    . caja-angulo-derecha {
+                        left: 27%
+                    }
+                }
+
+                / * !margen izquierdo: 10.5%
+            }
+        }
+
+        @ media (ancho máximo: 700px) y (ancho mínimo: 641px) {
+            . caja-angulo {
+                ancho: 27.5%
+            }
+
+            . caja-angulo-izquierda {
+                derecha: 27%
+            }
+
+            . caja -angulo-derecha {
+                left: 27%
+            }
+        }
+
+        / * !margen izquierdo: 10.5%
+    }
+}
+
+@ media (ancho máximo: 700px) y (ancho mínimo: 641px) {
+    . caja-angulo {
+        ancho: 27.5%
+    }
+
+    . caja-angulo-izquierda {
+        derecha: 27%
+    }
+
+    . caja -angulo-derecha {
+        left: 27%
+    }
+}
+
+/ * ! * Generado con el generador de CSS Flag Sprite (https: //www.flag-sprites.com/)
+    * /. flag {
+        display: inline-block; width: 32px; height: 32px; background: url (/css/img/flags.png) no-repeat
+    }
+
+    .flag.flag-om {
+        background-position: -224px - 320px
+    }
+
+    .flag.flag-nr {
+        background-position: -160px -320px
+    }
+
+    .flag.flag-bb {
+        background-position: -32px -32px
+    }
+
+    .flag.flag-ec {
+        background-position: -320px -96px
+    }
+
+    .flag.flag-jm {
+        background-position: -352px -192px
+    }
+
+    .flag.flag-cl {
+        background-position: -320px -64px
+    }
+
+    .flag.flag-la {
+        background-position: -320px -224px
+    }
+
+    .flag .flag-ua {
+        background-position: -384px -416px
+    }
+
+    .flag.flag-py {
+        background-position: -128px -352px
+    }
+
+    .flag.flag-zm {
+        background-position: -384px -448px
+    }
+
+    .flag.flag -ls {
+        background-position: -32px -256px
+    }
+
+    .flag.flag-bs {
+        background-position: -416px -32px
+    }
+
+    .flag.flag-nc {
+        background-position: -416px -288px
+    }
+
+    .flag.flag-to {
+        background-position: -192px -416px
+    }
+
+    .flag.flag-sk {
+        background-position: -96px -384px
+    }
+
+    .flag.flag-sr {
+        background-position:-256px -384px
+    }
+
+    .flag.flag-ne {
+        background-position: -448px -288px
+    }
+
+    .flag.flag-gh {
+        background-position: -416px -128px
+    }
+
+    .flag.flag-mt {
+        background-position: -160px -288px
+    }
+
+    .flag.flag-lr {
+        background-position: 0 -256px
+    }
+
+    .flag.flag-tj {
+        background-position: -64px -416px
+    }
+
+    .flag.flag-va {
+        background-position: -64px -448px
+    }
+
+    .flag.flag-lc {
+        background-position: -384px -224px
+    }
+
+    .flag.flag-pe {
+        background-position: -288px -320px
+    }
+
+    .flag.flag-vu {
+        background-position: -256px -448px
+    }
+
+    .flag .flag-pg {
+        posición de fondo: -352px -320px
+    }
+
+    .flag.flag-bf {
+        posición de fondo: -128px -32px
+    }
+
+    .flag.flag-lb {
+        posición de fondo: -352px -224px
+    }
+
+    .flag.flag -uz {
+        background-position: -32px -448px
+    }
+
+    .flag.flag-gp {
+        background-position: -64px -160px
+    }
+
+    .flag.flag-ae {
+        background-position: -32px 0
+    }
+
+    .flag.flag-gy {
+        posición-fondo: -256px -160px
+    }
+
+    .flag.flag-ba {
+        posición-fondo: 0 -32px
+    }
+
+    .flag.flag-pa {
+        posición-fondo: -256px -320px
+    }
+
+    .flag.flag-gn {
+        background-position: -32px -160px
+    }
+
+    .flag.flag-ir {
+        background-position: -192px -192px
+    }
+
+    .flag.flag-cg {
+        background-position: -192px -64px
+    }
+
+    .flag. flag-ee {
+        background-position: -352px -96px
+    }
+
+    .flag.flag-hu {
+        background-position: -416px -160px
+    }
+
+    .flag.flag-pk {
+        background-position: -416px -320px
+    }
+
+    .flag.flag- gr {
+        background-position: -128px -160px
+    }
+
+    .flag.flag-gu {
+        background-position: -192px -160px
+    }
+
+    .flag.flag-vn {
+        background-position: -224px -448px
+    }
+
+    .flag.flag-am {
+        background-position: -192px 0
+    }
+
+    .flag.flag-sa {
+        background-position: -352px -352px
+    }
+
+    .flag.flag-gq {
+        background-position: -96px -160px
+    }
+
+    .flag.flag-jp {
+        background-position : -416px -192px
+    }
+
+    .flag.flag-eg {
+        background-position: -384px -96px
+    }
+
+    .flag.flag-ga {
+        background-position: -224px -128px
+    }
+
+    .flag.flag-bz {
+        background-position: - 64px -64px
+    }
+
+    .flag.flag-ug {
+        background-position: -416px -416px
+    }
+
+    .flag.flag-sc {
+        background-position: -416px -352px
+    }
+
+    .flag.flag-mh {
+        background-position: -352px -256px
+    }
+
+    .flag.flag-ao {
+        background-position: -256px 0
+    }
+
+    .flag.flag-se {
+        background-position: 0 -384px
+    }
+
+    .flag.flag-is {
+        background-position: -224px -192px
+    }
+
+    .flag.flag-ms {
+        background-position: -128px -288px
+    }
+
+    .flag.flag-az {
+        background-position: -448px 0
+    }
+
+    .flag.flag-et {
+        background-position : -32px -128px
+    }
+
+    .flag.flag-cv {
+        background-position: -32px -96px
+    }
+
+    .flag.flag-mu {
+        background-position: -192px -288px
+    }
+
+    .flag.flag-dk {
+        background-position: - 192px -96px
+    }
+
+    .flag.flag-af {
+        background-position: -64px 0
+    }
+
+    .flag.flag-at {
+        background-position: -352px 0
+    }
+
+    .flag.flag-lk {
+        background-position: -448px -224px
+    }
+
+    .flag.flag-re {
+        background-position: -192px -352px
+    }
+
+    .flag.flag-sd {
+        background-position: -448px -352px
+    }
+
+    .flag.flag-gl {
+        background-position: -448px -128px
+    }
+
+    .flag .flag-zw {
+        background-position: -416px -448px
+    }
+
+    .flag.flag-th {
+        background-position: -32px -416px
+    }
+
+    .flag.flag-ad {
+        background-position: 0 0
+    }
+
+    .flag.flag-bd {
+        background-position: -64px -32px
+    }
+
+    .flag.flag-cd {
+        background-position: -128px -64px
+    }
+
+    .flag.flag-mz {
+        background-position: -352px -288px
+    }
+
+    .flag.flag-hn {
+        background-position: -320px -160px
+    }
+
+    .flag.flag-ke {
+        background-position: -448px -192px
+    }
+
+    .flag.flag-cz {
+        background- position: -96px -96px
+    }
+
+    .flag.flag-im {
+        background-position: -96px -192px
+    }
+
+    .flag.flag-tg {
+        background-position: 0 -416px
+    }
+
+    .flag.flag-si {
+        background-position: - 64px -384px
+    }
+
+    .flag.flag-ht {
+        background-position: -384px -160px
+    }
+
+    .flag.flag-iq {
+        background-position: -160px -192px
+    }
+
+    .flag.flag-na {
+        background-position: -384px - 288px
+    }
+
+    .flag.flag-no {
+        background-position: -96px -320px
+    }
+
+    .flag.flag-sy {
+        background-position: -352px -384px
+    }
+
+    .flag.flag-sn {
+        background-position: -192px -384px
+    }
+
+    .flag.flag-je {
+        background-position: -320px -192px
+    }
+
+    .flag.flag-gm {
+        background-position: 0 -160px
+    }
+
+    .flag.flag-gt {
+        background-position: -160px -160px
+    }
+
+    .flag.flag-lu {
+        background-position: -96px -256px
+    }
+
+    .flag.flag-md {
+        background-position: -256px -256px
+    }
+
+    .flag.flag- eh {
+        background-position: -416px -96px
+    }
+
+    .flag.flag-bn {
+        background-position: -320px -32px
+    }
+
+    .flag.flag-cr {
+        background-position: -448px -64px
+    }
+
+    .flag.flag-me {
+        background-position: -288px -256px
+    }
+
+    .flag.flag-jo {
+        background-position: -384px -192px
+    }
+
+    .flag.flag-sm {
+        background-position: -160px -384px
+    }
+
+    .flag.flag-rw {
+        background- position: -320px -352px
+    }
+
+    .flag.flag-kw {
+        background-position: -224px -224px
+    }
+
+    .flag.flag-tr {
+        background-position: -224px -416px
+    }
+
+    .flag.flag-ws {
+        background-position: -288px -448px
+    }
+
+    .flag.flag-za {
+        background-position: -352px -448px
+    }
+
+    .flag.flag-fi {
+        background-position: -64px -128px
+    }
+
+    .flag.flag-it {
+        background-position: -256px -192px
+    }
+
+    .flag.flag-lt {
+        posición de fondo: -64px -256px
+    }
+
+    .flag.flag-tt {
+        posición de fondo: -256px -416px
+    }
+
+    .flag.flag-an {
+        background-position: -224px 0
+    }
+
+    .flag.flag-ye {
+        background-position: -320px -448px
+    }
+
+    .flag.flag-kp {
+        background-position: -160px -224px
+    }
+
+    .flag.flag-cf {
+        background-position: -160px -64px
+    }
+
+    .flag.flag-ly {
+        background-position: -160px -256px
+    }
+
+    .flag.flag-tm {
+        background-position: -128px -416px
+    }
+
+    .flag.flag-mk {
+        background -posición: -384px -256px
+    }
+
+    .flag.flag-tn {
+        background-position: -160px -416px
+    }
+
+    .flag.flag-do {
+        background-position: -256px -96px
+    }
+
+    .flag.flag-cn {
+        background-position : -384px -64px
+    }
+
+    .flag.flag-ph {
+        background-position: -384px -320px
+    }
+
+    .flag.flag-rs {
+        background-position: -256px -352px
+    }
+
+    .flag.flag-mr {
+        background-position: - 96px -288px
+    }
+
+    .flag.flag-kg {
+        background-position: 0-224px
+    }
+
+    .flag.flag-bm {
+        background-position: -288px -32px
+    }
+
+    .flag.flag-de {
+        background-position: -128px -96px
+    }
+
+    .flag.flag-mo {
+        background-position: -32px -288px
+    }
+
+    .flag.flag-lv {
+        background-position: -128px -256px
+    }
+
+    .flag.flag-mq {
+        background-position: -64px -288px
+    }
+
+    .flag.flag-gg {
+        background-position: -384px -128px
+    }
+
+    .flag.flag-fr {
+        background-position: -192px -128px
+    }
+
+    .flag.flag- pl {
+        background-position: -448px -320px
+    }
+
+    .flag.flag-tl {
+        background-position: -96px -416px
+    }
+
+    .flag.flag-sl {
+        background-position: -128px -384px
+    }
+
+    .flag.flag-ml {
+        background-position: -416px -256px
+    }
+
+    .flag.flag-er {
+        background-position: -448px -96px
+    }
+
+    .flag.flag-cm {
+        background-position: -352px -64px
+    }
+
+    .flag.flag-tc {
+        background- position: -416px -384px
+    }
+
+    .flag.flag-gb {
+        background-position: -256px -128px
+    }
+
+    .flag.flag-ci {
+        background-position: -256px -64px
+    }
+
+    .flag.flag-sz {
+        background-position: -384px -384px
+    }
+
+    .flag.flag-bo {
+        background-position: -352px -32px
+    }
+
+    .flag.flag-ng {
+        background-position: 0 -320px
+    }
+
+    .flag.flag-pr {
+        background-position: 0 -352px
+    }
+
+    .flag.flag-by {
+        background-position: -32px -64px
+    }
+
+    .flag.flag-ma {
+        background-position: -192px -256px
+    }
+
+    .flag.flag-ai {
+        background-position: -128px 0
+    }
+
+    .flag.flag-fj {
+        background-position: -96px -128px
+    }
+
+    .flag.flag-mv {
+        background-position: -224px -288px
+    }
+
+    .flag.flag-sg {
+        background-position: -32px -384px
+    }
+
+    .flag.flag-co {
+        background-position: -416px -64px
+    }
+
+    .flag.flag-ro {
+        background-position: -224px -352px
+    }
+
+    .flag.flag-bi {
+        background -posición: -224px -32px
+    }
+
+    .flag.flag-al {
+        background-position: -160px 0
+    }
+
+    .flag.flag-fm {
+        background-position: -128px -128px
+    }
+
+    .flag.flag-es {
+        background-position: 0 -128px
+    }
+
+    .flag.flag-dj {
+        background-position: -160px -96px
+    }
+
+    .flag.flag-bw {
+        background-position: 0 -64px
+    }
+
+    .flag.flag-sv {
+        background-position: -320px -384px
+    }
+
+    .flag.flag-ru {
+        background-position: -288px -352px
+    }
+
+    .flag.flag-my {
+        background-position: -320px -288px
+    }
+
+    .flag.flag-kr {
+        background-position: -192px -224px
+    }
+
+    . flag.flag-ky {
+        background-position: -256px -224px
+    }
+
+    .flag.flag-qa {
+        background-position: -160px -352px
+    }
+
+    .flag.flag-gw {
+        background-position: -224px -160px
+    }
+
+    .flag.flag-td {
+        background-position: -448px -384px
+    }
+
+    .flag.flag-km {
+        background-position: -96px -224px
+    }
+
+    .flag.flag- ve {
+        background-position: -128px -448px
+    }
+
+    .flag.flag-bj {
+        background-position: -256px -32px
+    }
+
+    .flag.flag-vg {
+        background-position: -160px -448px
+    }
+
+    .flag.flag-tz {
+        background-position: -352px -416px
+    }
+
+    .flag.flag-bg {
+        background-position: -160px -32px
+    }
+
+    .flag.flag-st {
+        background-position: -288px -384px
+    }
+
+    .flag.flag-ie {
+        background- position: 0 -192px
+    }
+
+    .flag.flag-ch {
+        background-position: -224px -64px
+    }
+
+    .flag.flag-ge {
+        background-position: -320px -128px
+    }
+
+    .flag.flag-ca {
+        background-position: - 96px -64px
+    }
+
+    .flag.flag-kh {
+        background-position: -32px -224px
+    }
+
+    .flag.flag-hr {
+        background-position: -352px -160px
+    }
+
+    .flag.flag-uy {
+        background-position: 0 -448px
+    }
+
+    .flag.flag-kn {
+        background-position: -128px -224px
+    }
+
+    .flag.flag-ni {
+        background-position: -32px -320px
+    }
+
+    .flag.flag-mn {
+        background-position: 0 -288px
+    }
+
+    .flag.flag-dz {
+        background-position: -288px -96px
+    }
+
+    .flag.flag-bt {
+        background-position: -448px -32px
+    }
+
+    .flag.flag-mg {
+        background-position: -320px -256px
+    }
+
+    .flag.flag-ki {
+        background-position: -64px -224px
+    }
+
+    .flag.flag-in {
+        background-position: -128px -192px
+    }
+
+    .flag.flag-ck {
+        background -posición: -288px -64px
+    }
+
+    .flag.flag-cy {
+        background-position: -64px -96px
+    }
+
+    .flag.flag-hk {
+        background-position: -288px -160px
+    }
+
+    .flag.flag-mc {
+        background-position : -224px -256px
+    }
+
+    .flag.flag-mm {
+        background-position: -448px -256px
+    }
+
+    .flag.flag-bh {
+        background-position: -192px -32px
+    }
+
+    .flag.flag-fo {
+        background-position: - 160px -128px
+    }
+
+    .flag.flag-li {
+        background-position: -416px -224px
+    }
+
+    .flag.flag-nz {
+        background-position: -192px -320px
+    }
+
+    .flag.flag-il {
+        background-position: -32px - 192px
+    }
+
+    .flag.flag-kz {
+        background-position: -288px -224px
+    }
+
+    .flag.flag-cu {
+        background-position: 0 -96px
+    }
+
+    .flag.flag-ag {
+        background-position: -96px 0
+    }
+
+    .flag.flag-us {
+        background-position: -448px -416px
+    }
+
+    .flag.flag-ar {
+        background-position: -288px 0
+    }
+
+    .flag.flag-np {
+        background-position: -128px -320px
+    }
+
+    .flag.flag-be {
+        background-position: -96px -32px
+    }
+
+    .flag.flag-so {
+        background-position: -224px -384px
+    }
+
+    .flag.flag-vc {
+        background- position: -96px -448px
+    }
+
+    .flag.flag-mw {
+        background-position: -256px -288px
+    }
+
+    .flag.flag-as {
+        background-position: -320px 0
+    }
+
+    .flag.flag-tv {
+        background-position: - 288px -416px
+    }
+
+    .flag.flag-ps {
+        background-position: -32px -352px
+    }
+
+    .flag.flag-pw {
+        background-position: -96px -352px
+    }
+
+    .flag.flag-vi {
+        background-position: -192px - 448px
+    }
+
+    .flag.flag-nl {
+        background-position: -64px -320px
+    }
+
+    .flag.flag-id {
+        background-position: -448px -160px
+    }
+
+    .flag.flag-pt {
+        background-position: -64px -352px
+    }
+
+    .flag.flag-br {
+        posición de fondo: -384px -32px
+    }
+
+    .flag.flag-pf {
+        posición de fondo: -320px -320px
+    }
+
+    .flag.flag-au {
+        background-position: -384px 0
+    }
+
+    .flag.flag-tw {
+        background-position: -320px -416px
+    }
+
+    .flag.flag-dm {
+        background-position: -224px -96px
+    }
+
+    .flag.flag-sb {
+        background-position: -384px -352px
+    }
+
+    .flag.flag-aw {
+        background-position: -416px 0
+    }
+
+    .flag.flag-gd {
+        background-position: -288px
