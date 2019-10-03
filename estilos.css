@@ -114,6 +114,7 @@ nav {
     background: #fff;
     height: 80px;
     color: #000;
+    z-index: 10;
 }
 
 .contenedor-nav {
@@ -290,6 +291,7 @@ nav .enlaces a:hover {
 
 .fila .imagen{
     width: 33%;
+    position: relative;
     height: 300px;
     margin-bottom: 5px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .75);
@@ -298,17 +300,136 @@ nav .enlaces a:hover {
 .imagen img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    position: relative;
+    object-fit: cover;  
 }
 
-.imagen:before{
-    background-color: aquamarine;
+.overlay{
     position: absolute;
-    opacity: 0.5;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 118, 192, 0.781);
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.overlay h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    tex-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+    height: 100%;
+    cursor: pointer;
 }
 
 /*---------------------------------*/
+strong{
+	font-weight: bold;
+}
+section.opinion>div{
+	background: url(img/FONDO_EMPRESA.jpg) center no-repeat;
+	background-size: cover;
+	min-height: 700px;
+	height: 100%;
+	color: #00a4c8;
+	padding-bottom: 35px;
+}
+section.opinion>div>div{
+	display: block;
+	width: 46%;
+	float: right;
+	margin-right: 4%;
+	font-size: 20px;
+	background-color: rgba(255,255,255,.8);
+	padding: 75px 100px;
+	border-radius: 150px;
+	margin-top: 27px;
+}
+#opinion .quote-right,
+#ponnos-cara .quote-right{
+	width: 27px;
+	height: 19px;
+	top: -5px;
+}
+#index~* .quote-author{
+	color: #00a4c8;
+	font-size: 26px;
+	font-weight: 700;
+	display: block;
+}
+#index~* .quote-left,
+#index~.quote-left{
+	background-image: url(img/quote_left_index.png);
+	display: block;
+}
+#index~* .quote-left,
+#index~* .quote-right{
+	width: 50px;
+	height: 36px;
+	position: relative;
+	padding: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+#index~* .quote-right,
+#index~.quote-right{
+	background-image: url(img/quote_right_index.png);
+	display: inline-block;
+	top: 0;
+	height: 27px;
+}
+section.opinion i,
+section.opinion span{
+	/*font-size: 5px;*/
+	vertical-align: middle;
+}
+#opinion .quote-block{
+	font-size: 45px;
+	font-weight: 100;
+	line-height: 42px;
+}
+#opinion .quote-left{
+	width: 51px;
+	height: 36px;
+}
+#ponnos-cara .quote-block{
+	float: left;
+	width: 70%;
+	font-size: 26px;
+	font-weight: 100;
+	line-height: 29px;
+	padding-right: 30px;
+}
+section.opinion>div>div p{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 200;
+}
+p{
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+#ponnos-cara{
+	display: flex;
+	align-items: center;
+}
+div{
+	display: block;
+}
+
+/*----------------------------------*/
 .about {
     background: url(img/f10.jpg);
     background-position: center;
