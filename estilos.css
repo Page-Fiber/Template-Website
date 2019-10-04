@@ -331,6 +331,157 @@ nav .enlaces a:hover {
 }
 
 /*---------------------------------*/
+section{
+	display: block;
+}
+#data{
+	height: 750px;
+	background: #27accc;
+}
+.data{
+	margin: 0 auto;
+}
+.data, .data .plus{
+	text-align: center;
+}
+#data>div:not(.info_data){
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 60px;
+	width: 950px;
+	height: 250px;
+	border-bottom: 1px solid #4cbed7;
+}
+#data .logo_data{
+	float: left;
+	width: 220px;
+	height: 220px;
+	background: url(img/INDEX_LOGO.png) no-repeat;
+	background-size: contain;
+}
+#data .text_data{
+	float: right;
+	width: 550px;
+	color: #fff;
+	font-size: 28px;
+	font-weight: 100;
+	line-height: 34px;
+	text-align: left;
+	margin-top: 150px;
+	position: relative;
+	top: -36px;
+	margin-right: 30px;
+}
+#data .quote-left{
+	display: block;
+	width: 50px;
+	height: 36px;
+	background: url(img/quote_left.png) no-repeat;
+	position: relative;
+	top: -10px;
+}
+#data .quote-right{
+	display: block;
+	float: right;
+	width: 27px;
+	height: 20px;
+	background: url(img/quote_right.png) no-repeat;
+	position: relative;
+	right: -30px;
+	top: -40px;
+}
+.data .texto{
+	line-height: 20px;
+}
+.data .plus{
+	display: block;
+	color: #fff;
+	font-size: 37.14;
+	font-weight: 700;
+	line-height: 42.1px;
+	border: 2px solid #49b9d3;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	top: 15px;
+}
+.data .cantidad{
+	display: block;
+	font-size: 50px;
+	line-height: 52px;
+	text-align: center;
+}
+.data .cantidad, .data .texto{
+	position: relative;
+	top: 35px;
+	color: #fff;
+	font-weight: 100;
+}
+.data .info_data{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.data .info_data a{
+	margin: 0 auto;
+	color: #00a4c8;
+	font-weight: 300;
+	line-height: 60px;
+	background-color: #fff;
+	width: 400px;
+	height: 60px;
+	border-radius: 5px;
+}
+.data .info_data a,
+.data .texto{
+	display: block;
+	font-family: Titillium Web;
+	font-size: 22px;
+	text-align: center;
+}
+section .data a{
+	text-decoration: none;
+	background: 0 0;
+}
+.data a:hover{
+	outline: 0;
+}
+.data a:-webkit-any-link{
+	cursor: pointer;
+}
+.data .grafica:first-of-type{
+	margin-top: 50px;
+}
+.data .grafica{
+	margin-left: 15px;
+	margin-right: 15px;
+	display: block;
+	float: left;
+}
+.data .grafica canvas{
+	transform: rotateX(-180deg);
+	margin-top: -100px;
+}
+.data .info_data span{
+	margin-left: 10px;
+}
+.fa{
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+canvas{
+	display: inline-block;
+	vertical-align: baseline;
+}
+/*---------------------------------*/
 strong{
 	font-weight: bold;
 }
