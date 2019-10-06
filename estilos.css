@@ -17,7 +17,7 @@
 
 body {
     font-family: 'open sans';
-    background: #f2f2f2;
+    background: #fdfdfd;
 }
 
 img {
@@ -194,20 +194,19 @@ nav .enlaces a:hover {
 }
 
 .contenedor p {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
-    color: var(--color1);
 }
 
 .after::after {
     content: '';
     display: block;
     margin: auto;
-    margin-top: 8px;
-    width: 200px;
+    margin-top: 5px;
+    width: 100px;
     height: 2px;
     background: var(--color1);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .nos.contenedor{
@@ -265,16 +264,26 @@ nav .enlaces a:hover {
     font-size: 16px;
     font-weight:bold;
 }
-/*-------------------------*/
+/*--------galeria de imagenes-----------------*/
+.galeria h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Titillium Web', sans-serif;
+}
 .galeria h2{
     text-align: center;
-    margin: 15px 0 15px 0;
-    font-weight: bold;
-    font-family: 'open sans';
-    font-size: 40px;
+    margin: 15px 0 0 0;
+    font-weight: 500;
+    font-size: 42px;
+	color: rgb(219, 144, 0);
+}
+.galeria p{
+	text-align: center;
+	margin: 0 0 45px 0;
+	font-size: 20px;
+	font-weight: 500;
+	color: rgb(218, 135, 0);
 }
 .galeria{
-    background: #e4e4e8;
+    background: #f1f1f2;
     background-position: center;
     background-size: cover;
     padding: 5px 0 25px 0;
@@ -294,37 +303,43 @@ nav .enlaces a:hover {
     position: relative;
     height: 300px;
     margin-bottom: 5px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .75);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .75);
+	background: linear-gradient(360deg, rgba(211, 152, 0, 50), rgba(7, 109, 150, 0.50));
 }
-
 .imagen img{
     width: 100%;
     height: 100%;
-    object-fit: cover;  
+    object-fit: cover;
+	opacity: 0.9;
 }
-
 .overlay{
     position: absolute;
     bottom: 0;
     left: 0;
-    background: rgba(0, 118, 192, 0.781);
+    /*background: rgba(0, 118, 192, 0.781);*/
     width: 100%;
     height: 0;
-    transition: .5s ease;
+	background: -webkit-linear-gradient(top, rgba(211, 152, 20, 0.10), rgba(7, 109, 150, 0.80));
+	background: -o-linear-gradient(top, rgba(211, 152, 20, 0.10), rgba(7, 109, 150, 0.80));
+	background: linear-gradient(to bottom, rgba(211, 152, 20, 0.10), rgba(7, 109, 150, 0.80));
     overflow: hidden;
 }
-
 .overlay h2{
     color: #fff;
     font-weight: 300;
     font-size: 30px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    tex-align: center;
     transform: translate(-50%, -50%);
 }
-
+.icon-chevron-circle-right:before{
+	font-size: 40px;
+	color: #fff;
+	position: absolute;
+	top: 45%;
+	left: 46%;
+}
 .imagen:hover .overlay{
     height: 100%;
     cursor: pointer;
