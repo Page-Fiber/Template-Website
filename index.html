@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +10,21 @@
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="stylesicon.css">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
-	<link href = "https://file.myfontastic.com/mrrVD878ZQFokmrdab6PDk/icons.css" rel = "stylesheet">
 </head>
 
 <body class="hidden">
 	<div class="centrado" id="onload">
-		<div class="lds-facebook"><div></div><div></div><div></div></div>
+		<div class="lds-facebook">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
 	</div>
 	<header>
 		<nav id="nav" class="nav1">
 			<div class="contenedor-nav">
 				<div class="logo">
-					<img src="img/logo-tecnitel.jpg" alt="">
+					<img src="img/logo-c-tecnitel.png" alt="">
 				</div>
 				<div class="enlaces" id="enlaces">
 					<a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
@@ -136,6 +140,13 @@
 					</div>
 				</div>
 			</div>
+			<div class="btn-galeria">
+				<a class="text-galeria" href="">Ver mas proyectos <span class="icon-plus-circle"></span></a>
+			</div>
+			<!--<div class="info_data">
+				<a title="Contacta sin compromiso" href="/contact">
+					Contacta sin compromiso <span class="fa fa-chevron-right"></span></a>
+			</div>-->
 		</section>
 		<!--
         <section class="about" id="servicio">
@@ -156,48 +167,45 @@
             </div>
         </section>
 -->
-		<section data-scroll_element id="data" class="data">
+		<section id="data" class="data">
 			<div>
 				<div class="logo_data"></div>
-
 				<div class="text_data">
 					<span class="quote-left"></span>
 					<span>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis accusantium aliquid ducimus soluta perspiciatis. </span>
 					<span class="quote-right"></span>
 				</div>
-
 				<div class="gauge_data" id="gauge_data">
 					<div class="grafica dias">
 						<span class="plus">+</span>
 						<span class="cantidad count">1</span>
 						<span class="texto">años</span>
-						<canvas id="gauge_dias" class="canvas" width="200" height="200"></canvas>
+						<canvas id="gauge_dias" class="circle-o-notch" width="200" height="200"></canvas>
 					</div>
 					<div class="grafica clientes">
 						<span class="plus">+</span>
 						<span class="cantidad count">532</span>
 						<span class="texto">clientes</span>
-						<canvas id="gauge_clientes" class="canvas" width="200" height="200"></canvas>
+						<canvas id="gauge_clientes" class="circle-o-notch" width="200" height="200"></canvas>
 					</div>
 					<div class="grafica">
 						<span class="plus">+</span>
 						<span class="cantidad count">1127</span>
 						<span class="texto">proyectos</span>
-						<canvas id="gauge_desarrollo" class="canvas" width="200" height="200"></canvas>
+						<canvas id="gauge_desarrollo" class="circle-o-notch" width="200" height="200"></canvas>
 					</div>
 					<div class="grafica">
 						<span class="plus">+</span>
 						<span class="cantidad count">10</span>
 						<span class="texto">profesionales</span>
-						<canvas id="gauge_profesionales" class="canvas" width="200" height="200"></canvas>
+						<canvas id="gauge_profesionales" class="icon-circle-o-notch" width="200" height="200"></canvas>
 					</div>
 				</div>
 
 			</div>
-			<div class="info_data">
-				<a title="Contacta sin compromiso" href="/contact">
-					Contacta sin compromiso <span class="fa fa-chevron-right"></span></a>
+			<div class="btn-grafica">
+				<a href="/contact">Contacta sin compromiso<span class="icon-chevron-right"></span></a>
 			</div>
 		</section>
 		<section class="opinion" id="opinion">
