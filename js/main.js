@@ -9,16 +9,16 @@ let cerrado = true;
 function menus(){
     let Desplazamiento_Actual = window.pageYOffset;
 
-    if(Desplazamiento_Actual <= 300){
+    if(Desplazamiento_Actual <= 180){
         nav.classList.remove('nav2');
         nav.className = ('nav1');
-        nav.style.transition = '1s';
+        nav.style.transition = '0.5s';
         menu.style.top = '80px';
         abrir.style.color = '#fff';
     }else{
         nav.classList.remove('nav1');
         nav.className = ('nav2');
-        nav.style.transition = '1s';
+        nav.style.transition = '0.5s';
         menu.style.top = '100px';
         abrir.style.color = '#000';
     }
