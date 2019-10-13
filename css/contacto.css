@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus{
+	outline: none;	
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: #f1f1f2;
+}
+
+.logo img {
+    vertical-align:  top;
+}
+.banner-contact{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/contact.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.9)
+}
+
+.nav1 {
+    background: transparent;
+    height: 80px;
+    color: #000;
+}
+
+.nav2 {
+    background: #fff;
+    height: 80px;
+    color: #000;
+    z-index: 10;
+}
+
+.contenedor-nav {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    height: inherit;
+    overflow: hidden;
+}
+
+nav .enlaces a {
+    display: inline-block;
+    padding: 5px 5px ;
+    margin-right: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    color: inherit;
+}
+
+nav .enlaces a:hover {
+    border-bottom: 4px solid #1498a4;
+    transition: 0.6s;
+}
+
+.logo,
+.logo img {
+    width: 350px;
+}
+
+.icono {
+    display: none;
+    font-size: 24px;
+    padding: 23.5px 20px;
+}
+.after::after {
+    content: '';
+    display: block;
+    margin-top: 10px;
+    height: 2px;
+    background: rgba(72, 33, 0, 0.13);
+    margin-bottom: 10px;
+}
+/* FORMULARIO =====================================*/
+div.general{
+	width: 970px;
+	height: auto;
+	margin: -60px auto 50px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+	background: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+}
+div.form_wrap{
+	float: left;
+	width: 470px;
+	height: 600px;
+	/*display: block;*/
+	background: #c1c1c1;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+div.form_canales{
+	float: right;
+	width: 470px;
+	height: 200px;
+	background: rgba(207, 103, 15, 0.98);
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+div.form_map{
+	float: right;
+	width: 470px;
+	height: 380px;
+	margin-top: 15px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* INFORMACION DE CONTACTO */
+/*.contact_info:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #4091ec;
+	opacity: 0.9;
+}/*
+.contact_info{
+	width: 38%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url('../img1/fondo.jpg');
+	background-size: cover;
+	background-position: center center;
+}*/
+.info_title,
+.info_items{
+	color: #fff;
+}
+.info_title{
+	margin: 10px 15px;
+	
+}
+.info_title h2{
+	font-size: 18px;
+	font-weight: 600;
+}
+.info_items{
+	margin: 12px 15px 15px;
+}
+.info_items p{
+	margin-bottom: 10px;
+	align-items: center;
+}
+.phone{
+	float: left;
+	padding: 4px 10px;
+	border: #fff 1px solid;
+	border-radius: 2px;
+}
+.whatsapp{
+	float: right;
+	padding: 4px 10px;
+	border: #fff 1px solid;
+	border-radius: 2px;
+}
+/*.info_items p:nth-child(1) span{
+	font-size: 30px;
+	margin-right: 10px;
+}
+.info_items p:nth-child(2) span{
+	font-size: 50px;
+	margin-right: 10px;
+	margin-left: 4px;
+}
+/* FORMULARIO DE CONTACTO */
+/*form.form_contact{
+	width: 62%;
+	padding: 30px 40px;
+}
+form.form_contact h2{
+	font-size: 25px;
+	font-weight: 600;
+	color: #303030;
+	margin-bottom: 30px;
+}
+form.form_contact .user_info{
+	display: flex;
+	flex-direction: column;
+}
+form.form_contact label{
+	font-weight: 600;
+}
+form.form_contact input,
+form.form_contact textarea{
+	width: 100%;
+	padding: 8px 0px 5px;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 2px solid #d1d1d1;
+	font-family: 'Titillium Web', sans-serif;
+	color: #5a5a5a;
+	font-size: 14px;
+	font-weight: 400;
+}
+form.form_contact textarea{
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 90px;
+}
+form.form_contact input[type="button"]{
+	width: 180px;
+	background: #4091ec;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+	align-self: flex-end;
+	color: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+form.form_contact input[type="button"]:hover{
+	background: #3371b6;
+}*/
