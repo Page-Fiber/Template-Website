@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Página web completa</title>
 	<link rel="stylesheet" href="css/contacto.css">
+	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
 	<script src="js/jquery-3.4.1.js"></script>
@@ -38,8 +39,8 @@
 			<div class="form_wrap">
 				<section class="contact_info">
 					<section class="info_contact">
-						<h2>Formulario de contacto</h2>
-						<p>Solicite informacion acerca de nuestros servicio o para saber mas sobre Tecnitel Fiber</p>
+						<h2 class="after">Formulario de contacto</h2>
+						<p>Solicite informacion acerca de nuestros servicio o para saber mas sobre Tecnitel Fiber.</p>
 					</section>
 				</section>
 				<form action="" class="form_contact">
@@ -60,10 +61,14 @@
 				</section>
 				<section class="info_items">
 					<p><span class="fa fa-map-marker"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					<p class="phone"><span class="fa fa-sphone"></span> 926071192</p>
-					<p class="whatsapp"><span class="fa fa-whatsapp"></span> 926071192</p>
-					<p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
-					<p><span class="fa fa-facebook-square"></span></p>
+					<div class="btn-numeros">
+						<p class="phone"><span class="fa fa-phone"></span> 926071192</p>
+						<p class="whatsapp"><span class="fa fa-whatsapp"></span> 926071192</p>
+					</div>
+					<div class="redes-sociales">
+						<p class="gmail"><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
+						<p class="facebook"><span class="fa fa-facebook-square"></span></p>
+					</div>
 				</section>
 			</div>
 			<div class="form_map">
@@ -71,4 +76,26 @@
 			</div>
 		</div>
 	</main>
+	<footer class="main-footer" id="contacto">
+		<div class="container container--flex">
+			<div class="column column--33">
+				<h2 class="column__title">¿Por qué visitarnos?</h2>
+				<p class="column__txt">Porque somos una empresa capacitada para afrontar cualquier problema tecnológico de manera seria y profesional.
+					Para ello hemos ido incorporando avanzada tecnología y actualizando permanentemente su oferta de servicio.</p>
+			</div>
+			<div class="column column--33">
+				<h2 class="column__title">Contáctanos</h2>
+				<p class="column__txt">Calle Tomas Catari N° 838 Urb. El Trebol - Los Olivos - Lima - Lima</p>
+				<p class="column__txt">Teléfono: 924-230-910</p>
+				<p class="column__txt">waltervalverdehurtado@gmail.com</p>
+			</div>
+			<div class="column column--33">
+				<h2 class="column__title">Síguenos en nuestras redes</h2>
+				<p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+				<p class="column__txt"><a href="" class="icon-twitter">Síguemos en twitter</a></p>
+				<p class="column__txt"><a href="" class="icon-youtube-play">Visita nuestro canal</a></p>
+			</div>
+			<p class="copy">©2019 Tecnitel Fiber | Todos los derechos reservados</p>
+		</div>
+	</footer>
 </body></html>

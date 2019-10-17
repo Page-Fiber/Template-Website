@@ -18,7 +18,7 @@ body {
 }
 .banner-contact{
     width: 100%;
-    height: 300px;
+    height: 900px;
     background-image: url(../img/contact.jpg);
 	background-attachment: fixed;
     background-position: center;
@@ -73,7 +73,7 @@ nav .enlaces a:hover {
 
 .logo,
 .logo img {
-    width: 350px;
+    width: 450px;
 }
 
 .icono {
@@ -85,45 +85,41 @@ nav .enlaces a:hover {
     content: '';
     display: block;
     margin-top: 10px;
-    height: 2px;
+    height: 1px;
     background: rgba(72, 33, 0, 0.13);
     margin-bottom: 10px;
 }
 /* FORMULARIO =====================================*/
 div.general{
-	width: 970px;
-	height: auto;
-	margin: -60px auto 50px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-	background: #fff;
-	border-radius: 8px;
-	overflow: hidden;
+	width: 940px;
+	height: 650px;
+	margin: -750px auto 40px;
+	background: transparent;
 }
 div.form_wrap{
 	float: left;
 	width: 470px;
 	height: 600px;
-	/*display: block;*/
-	background: #c1c1c1;
+	background: #fff;
 	border-radius: 8px;
 	overflow: hidden;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 div.form_canales{
 	float: right;
-	width: 470px;
-	height: 200px;
+	width: 450px;
+	height: 190px;
 	background: rgba(207, 103, 15, 0.98);
 	border-radius: 8px;
 	overflow: hidden;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 div.form_map{
 	float: right;
-	width: 470px;
-	height: 380px;
+	width: 450px;
+	height: 440px;
 	margin-top: 15px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 /* INFORMACION DE CONTACTO */
@@ -167,69 +163,80 @@ div.form_map{
 	margin-bottom: 10px;
 	align-items: center;
 }
+.btn-numeros{
+	display: flex;
+	
+}
 .phone{
-	float: left;
-	padding: 4px 10px;
+	padding: 4px 8px;
+	margin-right: 10px;
 	border: #fff 1px solid;
 	border-radius: 2px;
 }
 .whatsapp{
-	float: right;
-	padding: 4px 10px;
+	padding: 4px 8px;
 	border: #fff 1px solid;
 	border-radius: 2px;
 }
-/*.info_items p:nth-child(1) span{
-	font-size: 30px;
+.redes-sociales{
+	display: flex
+}
+.gmail{
+	margin-right: 40px;
+}
+.info_items p:nth-child(1) span{
+	font-size: 18px;
 	margin-right: 10px;
 }
 .info_items p:nth-child(2) span{
-	font-size: 50px;
+	font-size: 18px;
 	margin-right: 10px;
-	margin-left: 4px;
 }
 /* FORMULARIO DE CONTACTO */
-/*form.form_contact{
-	width: 62%;
-	padding: 30px 40px;
+.info_contact{
+	margin: 27px 25px 0;
 }
-form.form_contact h2{
-	font-size: 25px;
+.info_contact h2 {
+	font-size: 27px;
 	font-weight: 600;
-	color: #303030;
-	margin-bottom: 30px;
+}
+.info_contact p{
+	color: #5a5a5a;
+	font-size: 17px;
+	font-weight: 500;
+}
+form.form_contact{
+	width: 100%;
+	padding: 20px 21px;
 }
 form.form_contact .user_info{
 	display: flex;
 	flex-direction: column;
 }
-form.form_contact label{
-	font-weight: 600;
-}
 form.form_contact input,
 form.form_contact textarea{
 	width: 100%;
-	padding: 8px 0px 5px;
-	margin-bottom: 20px;
-	border: none;
-	border-bottom: 2px solid #d1d1d1;
+	padding: 8px 13px;
+	margin-bottom: 15px;
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
 	font-family: 'Titillium Web', sans-serif;
 	color: #5a5a5a;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
 }
 form.form_contact textarea{
+	height: 90px;
 	max-width: 100%;
 	min-width: 100%;
-	max-height: 90px;
+	max-height: 200px;
 }
 form.form_contact input[type="button"]{
-	width: 180px;
-	background: #4091ec;
+	width: 160px;
+	background: rgba(207, 103, 15, 0.98);
 	padding: 10px;
 	border: none;
-	border-radius: 25px;
-	align-self: flex-end;
+	border-radius: 10px;
 	color: #fff;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 16px;
@@ -237,5 +244,5 @@ form.form_contact input[type="button"]{
 	cursor: pointer;
 }
 form.form_contact input[type="button"]:hover{
-	background: #3371b6;
-}*/
+	background: rgba(190, 93, 12, 0.98);
+}
