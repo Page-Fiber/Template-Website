@@ -87,7 +87,50 @@ h1,h2,h3,h4,h5,h6,p,a{
         height: 26px;
     }
 }
-
+/*Social bar*/
+.social-bar{
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.fab{
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.fab:hover{
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem;
+}
+.fa-facebook-f{
+	background: #2e406e;
+	padding: 15.5px;
+}
+.fa-twitter{
+	background: #339dc5;
+}
+.fa-instagram{
+	background: #3f60a5;
+	padding: 12.5px
+}
+.fa-google-plus-g{
+	background: #cb3b3b;
+	padding: 15px 8px;
+}
+.fab:first-child{
+	border-radius: 1rem 0 0 0;
+}
+.fab:last-child{
+	border-radius: 0 0 0 1rem;
+}
 /* Header */
 
 .cabezal {
@@ -1088,7 +1131,7 @@ footer{
 	}
 	.btn-grafica a{
 		width: 400px;
-		height: 50px;
+		height: 59px;
 	}
 	.data .btn-grafica a,
 	.data .texto{
@@ -2324,8 +2367,7 @@ footer{
 	}	
 }
 
-
-/*----------responsive-----------------*/
+/*----------responsive menu-----------------*/
 @media screen and (max-width: 700px) {
     .nav2 {
         color: #fff;
