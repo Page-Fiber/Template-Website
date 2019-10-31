@@ -98,37 +98,37 @@ h1,h2,h3,h4,h5,h6,p,a{
 	align-items: flex-end;
 	z-index: 100;
 }
-.fab{
+.social-bar .fab{
 	color: white;
 	text-decoration: none;
 	padding: .7rem;
 	display: flex;
 	transition: all .5s;
 }
-.fab:hover{
+.social-bar .fab:hover{
 	padding-right: 3rem;
 	border-radius: 1rem 0 0 1rem;
 	box-shadow: 0 0 .5rem;
 }
-.fa-facebook-f{
+.social-bar .fa-facebook-f{
 	background: #2e406e;
 	padding: 15.5px;
 }
-.fa-twitter{
+.social-bar .fa-twitter{
 	background: #339dc5;
 }
-.fa-instagram{
+.social-bar .fa-instagram{
 	background: #3f60a5;
 	padding: 12.5px
 }
-.fa-google-plus-g{
+.social-bar .fa-google-plus-g{
 	background: #cb3b3b;
 	padding: 15px 8px;
 }
-.fab:first-child{
+.social-bar .fab:first-child{
 	border-radius: 1rem 0 0 0;
 }
-.fab:last-child{
+.social-bar .fab:last-child{
 	border-radius: 0 0 0 1rem;
 }
 /* Header */

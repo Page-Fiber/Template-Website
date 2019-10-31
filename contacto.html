@@ -43,15 +43,16 @@
 						<p>Solicite informacion acerca de nuestros servicio o para saber mas sobre Tecnitel Fiber.</p>
 					</section>
 				</section>
-				<form action="" class="form_contact">
+				<form action="envio.php" method="post" class="form_contact">
 					<div class="user_info">
-						<input type="text" id="empresa" placeholder="Empresa" required>
-						<input type="text" id="name" placeholder="Nombres y Apellidos" required>
-						<input type="text" id="email" placeholder="Correo electrónico" required>
-						<input type="text" id="telefono" placeholder="¿A qué número llamar?" required>
-						<input type="text" id="asunto" placeholder="Asunto del mensaje" required>
-						<textarea id="mensaje" placeholder="Escriba su mensaje aquí"></textarea>
-						<input type="button" value="ENVIAR MENSAJE" id="btnsend">
+						<input type="text" id="empresa" name="empresa" placeholder="Empresa">
+						<input type="text" id="name" name="name" placeholder="Nombres y Apellidos" required>
+						<input type="text" id="email" name="email" placeholder="Correo electrónico" required>
+						<input type="text" id="telefono" name="telefono" placeholder="¿A qué número llamar?" required>
+						<input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje">
+						<textarea id="mensaje" name="mensaje" placeholder="Escriba su mensaje aquí" required></textarea>
+						<input type="submit" name="enviar" value="ENVIAR MENSAJE" id="btnsend">
+						<div id="resultado"></div>
 					</div>
 				</form>
 			</div>
@@ -63,11 +64,11 @@
 					<p><span class="fas fa-map-marker"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					<div class="btn-numeros">
 						<p class="phone"><span class="fas fa-phone"></span> 926071192</p>
-						<p class="whatsapp"><span class="fas fa-whatsapp"></span> 926071192</p>
+						<p class="whatsapp"><span class="fab fa-whatsapp"></span> 926071192</p>
 					</div>
 					<div class="redes-sociales">
 						<p class="gmail"><span class="fas fa-envelope"></span> info.contact@gmail.com</p>
-						<p class="facebook"><span class="fas fa-facebook-square"></span></p>
+						<p class="facebook"><span class="fab fa-facebook-f"></span></p>
 					</div>
 				</section>
 			</div>
