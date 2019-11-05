@@ -143,15 +143,83 @@ h1,h2,h3,h4,h5,h6,p,a {
 
 /* Header */
 
-.cabezal {
+/*.cabezal {
 	width: 100%;
 	height: 680px;
 	background: -webkit-linear-gradient(rgba(211, 135, 20, .6), rgba(211, 135, 20, 0.2), rgba(7, 109, 150, .45)), url(img/fondo.jpeg);
 	background: -o-linear-gradient(rgba(211, 135, 20, .6), rgba(211, 135, 20, 0.2), rgba(7, 109, 150, .45)), url(img/fondo.jpeg);
-	background: linear-gradient(rgba(211, 135, 20, .6)1%, rgba(211, 135, 20, 0.2)50%, rgba(7, 109, 150, .45))49%, url(img/fondo.jpeg), url(img/banner.jpeg);
+	background: linear-gradient(rgba(211, 135, 20, .6)1%, rgba(211, 135, 20, 0.2)50%, rgba(7, 109, 150, .45))49%, url(img/fondo.jpeg);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
+}*/
+ul,ol{
+	list-style: none;
+}
+.slideshow img{
+	max-width: 100%;
+	position: relative;
+}
+.slider ul, li{
+	width: 100%;
+}
+.slider li{
+	overflow: hidden;
+}
+.slider li img{
+	width: 100%;
+}
+.slider .caption{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	z-index: 1;
+}
+.slider .caption h1{
+	font-size: 50px;
+}
+.slider .caption p{
+	margin-top: 10px;
+	font-size: 20px;
+}
+.left, .right{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: #000;
+	font-size: 40px;
+	cursor: pointer;
+	z-index: 2;
+}
+.left{
+	left: 10px;
+}
+.right{
+	right: 10px;
+}
+@media screen and (max-width: 600px){
+	.slider .caption p{
+		display: none;
+	}
+	.slider .caption h1{
+		font-size: 35px;
+	}
+	.left, .right{
+		font-size: 35px;
+	}
+	.slider li img {
+		width: 600px;
+	}
 }
 
 nav {
